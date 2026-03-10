@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Shalom Bayit Property Management — Brand Styles */
+
+@theme {
+  /* Brand color palette */
+  --color-stone: #D2BE9E;
+  --color-olive: #5C6B3A;
+  --color-gold: #A68B5B;
+  --color-charcoal: #2C2A28;
+  --color-cream: #F7F3EE;
+  --color-stone-dark: #4A3F35;
+
+  /* Typography */
+  --font-display: var(--font-cormorant), 'Playfair Display', Georgia, serif;
+  --font-body: var(--font-dm-sans), 'Lato', system-ui, sans-serif;
+}
+
+body {
+  background-color: #F7F3EE;
+  color: #2C2A28;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 70" fill="none">
+  <!-- Green background -->
+  <rect width="60" height="70" fill="#5C6B3A"/>
+  <!-- Arch opening — cream -->
+  <path d="M12,70 L12,40 A18,18 0 0,1 48,40 L48,70 Z" fill="#F7F3EE"/>
+  <!-- Inner arch ring detail — subtle olive on cream -->
+  <path d="M17,70 L17,44 A13,13 0 0,1 43,44 L43,70"
+        fill="none" stroke="#5C6B3A" stroke-width="1.2" stroke-opacity="0.28"/>
+  <!-- Keystone hint at crown -->
+  <line x1="30" y1="23" x2="30" y2="31"
+        stroke="#5C6B3A" stroke-width="1.2" stroke-opacity="0.28"/>
+</svg>

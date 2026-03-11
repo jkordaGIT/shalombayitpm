@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 
 const steps = [
   {
-    num: "01",
+    num: "1",
     title: "Consultation",
     duration: "30–45 minutes",
     description:
-      "We begin with a conversation — not a sales pitch. We want to understand your home, your calendar, how often you visit, who uses the apartment in your absence, and what has frustrated you about property management in the past. This call happens over Zoom or WhatsApp, on your schedule, in your time zone.",
+      "We begin with a conversation — not a sales pitch. We want to understand your home, your calendar, how often you visit, who uses the home in your absence, and what has frustrated you about property management in the past. This call happens over Zoom or WhatsApp, on your schedule, in your time zone.",
     details: [
       "We ask about your home — size, age, systems, any known issues",
       "We ask about your visit patterns and who has access",
@@ -23,11 +23,11 @@ const steps = [
     ],
   },
   {
-    num: "02",
+    num: "2",
     title: "Property Assessment",
     duration: "1–2 hours on-site",
     description:
-      "Before any agreement is signed, we walk through your apartment. In person if you are in Jerusalem, or via a thorough video walkthrough with a live call if you are abroad. We document the current condition of every room and system — this becomes the baseline record for everything that follows.",
+      "Before any agreement is signed, we walk through your home. In person if you are in Jerusalem, or via a thorough video walkthrough with a live call if you are abroad. We document the current condition of every room and system — this becomes the baseline record for everything that follows.",
     details: [
       "Full interior walkthrough with photo and video documentation",
       "Systems check: plumbing, electrical, HVAC, boiler, appliances",
@@ -37,7 +37,7 @@ const steps = [
     ],
   },
   {
-    num: "03",
+    num: "3",
     title: "Agreement",
     duration: "One document. No ambiguity.",
     description:
@@ -51,7 +51,7 @@ const steps = [
     ],
   },
   {
-    num: "04",
+    num: "4",
     title: "Ongoing Management",
     duration: "Every month, indefinitely",
     description:
@@ -60,7 +60,7 @@ const steps = [
       "Two physical inspections per month — same team, same standards",
       "Monthly PDF report and walkthrough video within 5 business days",
       "Same-day notification for any Critical finding",
-      "All WhatsApp messages answered within 24 hours (4 hours for urgent matters)",
+      "All WhatsApp messages answered within 24 hours (sooner for urgent matters)",
       "Full maintenance history maintained and available on request",
       "Annual property health summary with forward-looking recommendations",
     ],
@@ -160,7 +160,7 @@ export default function HowItWorksPage() {
               },
               {
                 title: "Walkthrough Video",
-                body: "A named Shalom Bayit team member walks through your apartment on camera. You see your home as if you were there. No competitor offers this.",
+                body: "A named Shalom Bayit team member walks through your home on camera. You see your home as if you were there. No competitor offers this.",
               },
               {
                 title: "Action Summary",

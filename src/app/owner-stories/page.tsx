@@ -11,28 +11,28 @@ export const metadata: Metadata = {
 const stories = [
   {
     quote:
-      "We have owned our apartment in Rechavia for eleven years. In that time we had three different property managers — a lawyer, a building company, and a friend of a friend. None of them sent us a single photo that we didn't ask for. Shalom Bayit sent us a video of our apartment on the first Monday after we signed. We hadn't asked. That was the moment we understood this was different.",
+      "We have owned our home in Rechavia for eleven years. In that time we had three different property managers — a lawyer, a building company, and a friend of a friend. None of them sent us a single photo that we didn't ask for. Shalom Bayit sent us a video of our home on the first Monday after we signed. We hadn't asked. That was the moment we understood this was different.",
     name: "D.F.",
     location: "New York / Rechavia, Jerusalem",
-    detail: "150 sqm apartment, owned 11 years",
+    detail: "150 sqm home, owned 11 years",
   },
   {
     quote:
       "The thing that gets me is the pricing. Every property manager we ever had was vague about money — 'it depends,' 'we'll see,' 'that's extra.' With Shalom Bayit we knew the number before we signed. The invoice every month matches what we expected. That sounds like a low bar. In Jerusalem it isn't.",
     name: "R. and M.K.",
     location: "Toronto / German Colony, Jerusalem",
-    detail: "120 sqm apartment, renovation completed 2024",
+    detail: "120 sqm home, renovation completed 2024",
   },
   {
     quote:
-      "My parents bought the apartment in the 1980s and it passed to me. I had never managed property before and I was terrified of the Israeli bureaucracy — arnona, va'ad bayit, permits for a renovation we needed to do. Shalom Bayit handled every piece of it. I didn't make a single phone call to an Israeli government office.",
+      "My parents bought the home in the 1980s and it passed to me. I had never managed property before and I was terrified of the Israeli bureaucracy — Arnona, Vaad Habayit, permits for a renovation we needed to do. Shalom Bayit handled every piece of it. I didn't make a single phone call to an Israeli government office.",
     name: "J.L.",
     location: "Los Angeles / Katamon, Jerusalem",
     detail: "Inherited property, 95 sqm",
   },
   {
     quote:
-      "We lend our apartment to family and friends throughout the year. Before Shalom Bayit, we never really knew what condition it was in between visits. Now we get a video every month. We know the exact state of every room. When our daughter arrived in August she walked into an apartment that had been prepared for her — linens fresh, groceries stocked, everything exactly as we asked.",
+      "We lend our home to family and friends throughout the year. Before Shalom Bayit, we never really knew what condition it was in between visits. Now we get a video every month. We know the exact state of every room. When our daughter arrived in August she walked into a home that had been prepared for her — linens fresh, groceries stocked, everything exactly as we asked.",
     name: "S. and A.B.",
     location: "Chicago / Talbieh, Jerusalem",
     detail: "Used by family 6–8 months per year",

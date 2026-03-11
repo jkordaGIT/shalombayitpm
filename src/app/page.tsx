@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-/* ─── Section: Hero ─────────────────────────────────────────── */
+/* Section: Hero */
 function Hero() {
   return (
     <section className="relative min-h-screen flex items-end pb-24 pt-20">
@@ -34,7 +34,7 @@ function Hero() {
             className="font-body text-lg leading-relaxed mb-10 max-w-xl"
             style={{ color: "rgba(247,243,238,0.7)" }}
           >
-            Boutique property management for North American homeowners in Jerusalem —
+            Boutique property management for North American homeowners in Jerusalem,
             combining genuine local expertise with the communication standards you expect at home.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
@@ -59,11 +59,11 @@ function Hero() {
   );
 }
 
-/* ─── Section: Value Props ───────────────────────────────────── */
+/* Section: Value Props */
 const values = [
   {
     label: "Boutique by design",
-    body: "We manage fewer homes to do each one better. You will always speak with someone who knows your apartment.",
+    body: "We manage fewer homes to do each one better. You will always speak with someone who knows your home.",
   },
   {
     label: "Peace of mind",
@@ -97,7 +97,7 @@ function Values() {
   );
 }
 
-/* ─── Section: Services Preview ──────────────────────────────── */
+/* Section: Services Preview */
 const services = [
   {
     category: "Property Oversight",
@@ -107,7 +107,7 @@ const services = [
   {
     category: "Shabbat & Holiday Preparation",
     description:
-      "Your home readied before you arrive — fresh linens, kitchen stocked, Shabbat candles and wine set out. We understand the calendar because we live it.",
+      "Your home readied before you arrive — fresh linens, kitchen stocked, and Shabbat ritual and meal preparation based on your exact preferences. We understand the calendar because we live it.",
   },
   {
     category: "Maintenance & Repairs",
@@ -117,12 +117,12 @@ const services = [
   {
     category: "Arrival Preparation",
     description:
-      "Walk in and feel at home. Climate control on, your grocery list filled, the apartment aired and ready — the moment you land.",
+      "Walk in and feel at home. Climate control on, your grocery list filled, the home aired and ready — the moment you land.",
   },
   {
     category: "Legal & Financial Liaison",
     description:
-      "Arnona, va'ad bayit, Mas Hachnasa. We handle the Israeli bureaucratic layer on your behalf — in both languages, without burdening you.",
+      "Arnona, Vaad Habayit, Mas Hachnasa. We handle the Israeli bureaucratic layer on your behalf — in both languages, without burdening you.",
   },
   {
     category: "Concierge",
@@ -177,25 +177,25 @@ function ServicesPreview() {
   );
 }
 
-/* ─── Section: How It Works ──────────────────────────────────── */
+/* Section: How It Works */
 const steps = [
   {
-    num: "01",
+    num: "1",
     title: "Consultation",
     body: "A conversation about your home, your calendar, and what peace of mind means to you.",
   },
   {
-    num: "02",
+    num: "2",
     title: "Assessment",
-    body: "We walk through your apartment together — in person or via video — and document its current condition.",
+    body: "We walk through your home together — in person or via video — and document its current condition.",
   },
   {
-    num: "03",
+    num: "3",
     title: "Agreement",
     body: "One clear contract. One transparent price. No surprises, no hidden fees, no ambiguity.",
   },
   {
-    num: "04",
+    num: "4",
     title: "Ongoing Management",
     body: "Your home is in our hands. You receive your report every month and hear from us whenever something needs attention.",
   },
@@ -237,7 +237,7 @@ function HowItWorks() {
   );
 }
 
-/* ─── Section: Pull Quote ────────────────────────────────────── */
+/* Section: Pull Quote */
 function PullQuote() {
   return (
     <section className="py-24 lg:py-32" style={{ backgroundColor: "#4A3F35" }}>
@@ -248,8 +248,7 @@ function PullQuote() {
             className="font-display text-3xl lg:text-4xl font-light leading-relaxed mb-10"
             style={{ color: "#F7F3EE" }}
           >
-            "We understand Shabbat, the chagim, and the seasons that make Jerusalem unlike
-            anywhere else on earth."
+            "We brought North American standards to Jerusalem by choice. This city is home for us — and we have made it our purpose to ensure it always feels that way for you."
           </blockquote>
           <div className="flex items-center gap-4">
             <div className="w-12 h-px" style={{ backgroundColor: "#A68B5B" }} />
@@ -266,7 +265,7 @@ function PullQuote() {
   );
 }
 
-/* ─── Section: CTA ───────────────────────────────────────────── */
+/* Section: CTA */
 function CTA() {
   return (
     <section className="py-24 lg:py-32 text-center" style={{ backgroundColor: "#F7F3EE" }}>
@@ -302,7 +301,7 @@ function CTA() {
   );
 }
 
-/* ─── Page ───────────────────────────────────────────────────── */
+/* Page */
 export default function Home() {
   return (
     <>

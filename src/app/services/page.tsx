@@ -44,8 +44,8 @@ const categories = [
       "We understand the Jewish calendar because we live it. Your home is prepared before every Shabbat or Yom Tov arrival — not as a checklist item, but as an expression of what it means to walk into a home that was waiting for you.",
     services: [
       "Pre-Shabbat and pre-Yom Tov home preparation",
-      "Fresh linens, aired apartment, kitchen stocked to your standing list",
-      "Shabbat candles, wine, and challah set out on arrival",
+      "Fresh linens, aired home, kitchen stocked to your standing list",
+      "Shabbat preparation tailored to your observance level and exact preferences",
       "Sukkah building and breakdown coordination",
       "Pesach kitchen preparation and chametz removal coordination",
       "Rosh Hashana arrival packages",
@@ -55,10 +55,10 @@ const categories = [
   {
     title: "Arrival Preparation",
     intro:
-      "Walk in and feel at home — regardless of how long you have been away. We prepare your apartment to your exact specifications before every arrival, so the transition from airport to home is seamless.",
+      "Walk in and feel at home — regardless of how long you have been away. We prepare your home to your exact specifications before every arrival, so the transition from airport to home is seamless.",
     services: [
       "Climate control activated before your arrival",
-      "Full apartment airing and refresh",
+      "Full home airing and refresh",
       "Grocery stocking to your standing or custom list",
       "Bed making and linen setup in all rooms",
       "Bathroom and toiletries prepared",
@@ -70,10 +70,10 @@ const categories = [
   {
     title: "Legal & Financial Coordination",
     intro:
-      "The Israeli administrative layer — arnona, va'ad bayit, utility accounts, municipal bureaucracy — is handled on your behalf. You should never need to navigate an Israeli government office from New York or Toronto.",
+      "The Israeli administrative layer — Arnona, Vaad Habayit, utility accounts, municipal bureaucracy — is handled on your behalf. You should never need to navigate an Israeli government office from abroad.",
     services: [
       "Arnona (property tax) monitoring and communication",
-      "Va'ad bayit (building committee) liaison and payment coordination",
+      "Vaad Habayit (building committee) liaison and payment coordination",
       "Utility account monitoring, activation, and deactivation",
       "Foreign credit card facilitation for Israeli bills",
       "Monthly expense reconciliation and documentation",
@@ -95,6 +95,20 @@ const categories = [
       "Furniture and appliance delivery coordination",
       "Contractor scheduling on your behalf",
       "Local sourcing and errand coordination",
+    ],
+  },
+  {
+    title: "Our Network of Trusted Professionals",
+    intro:
+      "We do one thing and do it exceptionally well. But we understand that owning a home in Jerusalem touches every aspect of life here — legal, financial, architectural, administrative. We have built trusted relationships with the professionals North American owners need most: people who communicate at your standards, understand diaspora client expectations, and have earned our confidence through consistent performance. We make introductions when you need them. We never mark up their services.",
+    services: [
+      "Real estate attorneys experienced with North American diaspora clients",
+      "Accountants specializing in Israeli-American and Israeli-Canadian tax matters",
+      "Interior designers who understand absentee owner needs and timelines",
+      "Architects for renovations both modest and significant",
+      "Real estate agents for purchase, sale, or market assessment",
+      "Financial advisors with cross-border Israel-US and Israel-Canada expertise",
+      "Specialty contractors for larger projects beyond standard maintenance scope",
     ],
   },
 ];
@@ -123,7 +137,7 @@ export default function ServicesPage() {
                   className="font-display text-5xl font-light mb-4"
                   style={{ color: "#D2BE9E" }}
                 >
-                  {String(i + 1).padStart(2, "0")}
+                  {i + 1}
                 </p>
                 <h2
                   className="font-display text-3xl font-light mb-6"
@@ -180,21 +194,21 @@ export default function ServicesPage() {
               One package. One price. No surprises.
             </h2>
             <p
-              className="font-body text-base leading-relaxed"
+              className="font-body text-base leading-relaxed mb-4"
               style={{ color: "rgba(44,42,40,0.65)" }}
             >
               The Chai Package covers property oversight, monthly reports, and routine coordination.
-              Sub-contractors are passed through at actual cost — zero markup, ever. Additional
-              labor (arrival preparation, contractor supervision, repairs) is billed at a flat
-              hourly rate.
+              Pricing is straightforward: 15 NIS per sqm per month, with a minimum of 1,800 NIS + VAT.
+              Sub-contractors are passed through at actual cost — zero markup, ever. Work requiring
+              on-site supervision is billed at 400 NIS per hour, with a 30-minute minimum.
             </p>
             <p
-              className="font-body text-sm mt-4 italic"
-              style={{ color: "rgba(44,42,40,0.45)" }}
+              className="font-body text-sm leading-relaxed"
+              style={{ color: "rgba(44,42,40,0.65)" }}
             >
-              A Jerusalem apartment worth $500,000–$2,000,000 deserves professional care. Our
-              monthly fee is a small fraction of your asset's value — and an investment in its
-              preservation.
+              The monthly retainer represents a small fraction of the cost of a single preventable
+              issue — a leak left undetected, a system failure that compounds over weeks. This is not
+              overhead. It is protection.
             </p>
           </div>
           <div>

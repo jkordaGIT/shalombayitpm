@@ -43,9 +43,8 @@ const categories = [
     intro:
       "We understand the Jewish calendar because we live it. Your home is prepared before every Shabbat or Yom Tov arrival, not as a checklist item, but as an expression of what it means to walk into a home that was waiting for you.",
     services: [
-      "Pre-Shabbat and pre-Yom Tov home preparation",
-      "Fresh linens, aired home, kitchen stocked to your standing list",
       "Pre-Shabbat and pre-chag preparation done to your personal specifications",
+      "Fresh linens, aired home, kitchen stocked to your standing list",
       "Sukkah building and breakdown coordination",
       "Pesach kitchen preparation and chametz removal coordination",
       "Rosh Hashana arrival packages",

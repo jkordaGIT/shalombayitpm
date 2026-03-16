@@ -13,7 +13,7 @@ export default function JerusalemPage() {
       <PageHero
         label="The city"
         headline="Jerusalem is not a location. It is a relationship."
-        subheadline="Understanding this city — deeply, practically, culturally — is not a selling point. It is a precondition."
+        subheadline="Understanding this city, deeply, practically, and culturally, is not a selling point. It is a precondition."
       />
 
       {/* Editorial sections */}

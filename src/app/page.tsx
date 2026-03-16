@@ -107,7 +107,7 @@ const services = [
   {
     category: "Shabbat & Holiday Preparation",
     description:
-      "Your home readied before you arrive — fresh linens, kitchen stocked, and Shabbat ritual and meal preparation based on your exact preferences. We understand the calendar because we live it.",
+      "Your home readied before you arrive. Fresh linens, kitchen stocked, and every Shabbat and chag preparation done to your personal specifications. We understand the calendar because we live it.",
   },
   {
     category: "Maintenance & Repairs",
@@ -117,17 +117,17 @@ const services = [
   {
     category: "Arrival Preparation",
     description:
-      "Walk in and feel at home. Climate control on, your grocery list filled, the home aired and ready — the moment you land.",
+      "Walk in and feel at home. Climate control on, your grocery list filled, the home aired and ready the moment you land.",
   },
   {
     category: "Legal & Financial Liaison",
     description:
-      "Arnona, Vaad Habayit, Mas Hachnasa. We handle the Israeli bureaucratic layer on your behalf — in both languages, without burdening you.",
+      "Arnona, Vaad Habayit, Mas Hachnasa. We handle the Israeli bureaucratic layer on your behalf, in both languages, without burdening you.",
   },
   {
     category: "Concierge",
     description:
-      "Transportation, reservations, specialist sourcing. Whatever your home needs, we coordinate it — from across the Atlantic or around the corner.",
+      "Transportation, reservations, specialist sourcing. Whatever your home needs, we coordinate it, whether you are across the Atlantic or around the corner.",
   },
 ];
 
@@ -187,7 +187,7 @@ const steps = [
   {
     num: "2",
     title: "Assessment",
-    body: "We walk through your home together — in person or via video — and document its current condition.",
+    body: "We walk through your home together, in person or via video, and document its current condition.",
   },
   {
     num: "3",
@@ -248,7 +248,7 @@ function PullQuote() {
             className="font-display text-3xl lg:text-4xl font-light leading-relaxed mb-10"
             style={{ color: "#F7F3EE" }}
           >
-            "We brought North American standards to Jerusalem by choice. This city is home for us — and we have made it our purpose to ensure it always feels that way for you."
+            "We came from the same cities you did and grew up with the same standards. We chose Jerusalem. Making your home here feel like yours is what we have made our purpose."
           </blockquote>
           <div className="flex items-center gap-4">
             <div className="w-12 h-px" style={{ backgroundColor: "#A68B5B" }} />
@@ -286,7 +286,7 @@ function CTA() {
           className="font-body text-lg mb-10 max-w-xl mx-auto leading-relaxed"
           style={{ color: "rgba(44,42,40,0.6)" }}
         >
-          We begin with a conversation. No commitment, no pressure — just an honest discussion
+          We begin with a conversation. No commitment, no pressure. Just an honest discussion
           about what your Jerusalem home needs.
         </p>
         <Link

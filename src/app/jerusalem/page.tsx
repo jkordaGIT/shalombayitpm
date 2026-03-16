@@ -30,10 +30,10 @@ export default function JerusalemPage() {
             </div>
             <div className="lg:col-span-8">
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "rgba(44,42,40,0.7)" }}>
-                There is an hour in Jerusalem — in the late afternoon on a Friday, in the weeks around the chagim — when the limestone turns amber. The walls of the Old City, the stone facades of Rechavia and Talbiya, the terraces overlooking the Judean Hills — all of it catches the light in a way that exists nowhere else on earth.
+                There is an hour in Jerusalem, in the late afternoon on a Friday, in the weeks around the chagim, when the limestone turns amber. The walls of the Old City, the stone facades of Rechavia and Talbiya, the terraces overlooking the Judean Hills. All of it catches the light in a way that exists nowhere else on earth.
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Owners who have flown in for Shabbat know this light. They have stepped off a plane, arrived at a home that was ready and waiting, and felt — before unpacking, before anything — that they were home. This is what we are in the business of preserving.
+                Owners who have flown in for Shabbat know this light. They have stepped off a plane, arrived at a home that was ready and waiting, and felt, before unpacking, before anything, that they were home. This is what we are in the business of preserving.
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function JerusalemPage() {
                 Jerusalem slows down on Friday afternoon and does not resume until Saturday night. Sukkot empties the city of noise and fills terraces with schach and string lights. Pesach transforms kitchens. Rosh Hashana brings family from five continents to homes that have been empty since last summer.
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Managing a Jerusalem home means knowing this calendar intimately — not as a scheduling constraint, but as the actual rhythm of life here. We know when to prepare your home, what to prepare, and what it means if we miss the timing. This is not knowledge that transfers from property management experience elsewhere.
+                Managing a Jerusalem home means knowing this calendar intimately, not as a scheduling constraint, but as the actual rhythm of life here. We know when to prepare your home, what to prepare, and what it means if we miss the timing. This is not knowledge that transfers from property management experience elsewhere.
               </p>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function JerusalemPage() {
             </div>
             <div className="lg:col-span-8">
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Jerusalem's most sought-after neighborhoods each have their own character and their own particular demands. The Jewish Quarter of the Old City, where a home's balcony looks out over two thousand years of history. The German Colony, where secular and traditional coexist in a way unique to this city. Baka, with its leafy streets and growing community of North American families. And further north, Rechavia and Talbiya — the limestone homes with high ceilings, arched windows, and prewar dignity that draw owners who understand what Jerusalem architecture is.
+                Jerusalem&apos;s most sought-after neighborhoods each have their own character and their own particular demands. The Jewish Quarter of the Old City, where a home&apos;s balcony looks out over two thousand years of history. The German Colony, where secular and traditional coexist in a way unique to this city. Baka, with its leafy streets and growing community of North American families. And further north, Rechavia and Talbiya, with limestone homes of high ceilings, arched windows, and prewar dignity that draw owners who understand what Jerusalem architecture is.
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
                 Each neighborhood has its own Vaad Habayit dynamics, its own building politics, its own quirks. We know the buildings where water pressure problems are chronic. We know the buildings where the Vaad Habayit chairman requires communication in a particular way. We know your neighborhood because we work in it.
@@ -87,7 +87,7 @@ export default function JerusalemPage() {
                 North American owners think about this. They do not always say it directly, but the question is always somewhere in the room: what happens to my home when things are difficult?
               </p>
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "rgba(44,42,40,0.7)" }}>
-                We address it directly. During periods of tension, we increase inspection frequency. We communicate proactively — we do not wait for you to ask. We tell you what we see, what the neighborhood feels like, and what, if anything, you need to know. We are not a news service and we will not catastrophize. But we will never let you find out from a headline what you should have heard from us first.
+                We address it directly. During periods of tension, we increase inspection frequency. We communicate proactively. We do not wait for you to ask. We tell you what we see, what the neighborhood feels like, and what, if anything, you need to know. We are not a news service and we will not catastrophize. But we will never let you find out from a headline what you should have heard from us first.
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
                 Jerusalem has been home to people who love it through every period of its history. It will continue to be. Your home is part of that story.
@@ -105,7 +105,7 @@ export default function JerusalemPage() {
             </div>
             <div className="lg:col-span-8">
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Arnona, Vaad Habayit, Misrad HaShikun, the utility companies — the administrative infrastructure of owning property in Israel is not intuitive from abroad. It requires Hebrew, patience, and a willingness to be put on hold by Bezeq — for your wifi, internet, or cable — for forty minutes.
+                Arnona, Vaad Habayit, Misrad HaShikun, the utility companies. The administrative infrastructure of owning property in Israel is not intuitive from abroad. It requires Hebrew, patience, and a willingness to be put on hold by Bezeq (for your wifi, internet, or cable) for forty minutes.
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
                 We handle this layer entirely. It does not require your involvement unless a decision exceeds your spending threshold or requires your signature. You should never need to call an Israeli government office. That is part of what you are paying for.
@@ -124,7 +124,7 @@ export default function JerusalemPage() {
             className="font-display text-3xl lg:text-4xl font-light leading-relaxed"
             style={{ color: "#F7F3EE" }}
           >
-            "A home in Jerusalem is rarely just an investment. We treat it accordingly."
+            &ldquo;A home in Jerusalem is rarely just an investment. We treat it accordingly.&rdquo;
           </blockquote>
         </div>
       </section>

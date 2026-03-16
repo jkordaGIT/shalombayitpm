@@ -10,27 +10,27 @@ export const metadata: Metadata = {
 const differentiators = [
   {
     title: "We occupy a position no one else does.",
-    body: "We sit at an intersection that no one else occupies. No local Israeli company communicates at North American standards or understands what it means to own a home abroad. And no global platform — Onefinestay, Vacasa, Luxury Retreats — has meaningful Jerusalem presence or understands the diaspora owner. It is not a niche. It is an uncontested position.",
+    body: "We sit at an intersection that no one else occupies. No local Israeli company communicates at North American standards or understands what it means to own a home abroad. And no global platform (Onefinestay, Vacasa, Luxury Retreats) has meaningful Jerusalem presence or understands the diaspora owner. It is not a niche. It is an uncontested position.",
   },
   {
     title: "We live the calendar you care about.",
-    body: "Your Jerusalem home exists inside a Jewish calendar — Shabbat, Rosh Hashana, Sukkot, Shavuot, Pesach. We do not need to be reminded that you want the home ready before Shabbat, or that Pesach kitchen preparation is not a minor detail. We understand this because it is our calendar too. This cultural fluency cannot be trained into a property manager — it has to be lived.",
+    body: "Your Jerusalem home exists inside a Jewish calendar: Shabbat, Rosh Hashana, Sukkot, Shavuot, Pesach. We do not need to be reminded that you want the home ready before Shabbat, or that Pesach kitchen preparation is not a minor detail. We understand this because it is our calendar too. This cultural fluency cannot be trained into a property manager. It has to be lived.",
   },
   {
     title: "We send a video, not just a report.",
     body: "Every month, a named Shalom Bayit team member walks through your home on camera. You see your home as if you were standing in it. You see the water stain we found under the sink, the shutters we adjusted, the way the light falls in the afternoon. No competitor offers this. It is our most concrete expression of the transparency promise.",
   },
   {
-    title: "We charge what we charge — and that is everything.",
-    body: "Our pricing is a formula: 15 NIS per square meter per month, minimum 1,800 NIS. Sub-contractors are passed through at actual cost — zero markup, ever. Hourly supervision is billed at 400 NIS, in 15-minute increments, with a 30-minute minimum. You know what you will pay before you sign, and the invoice never surprises you. This alone separates us from nearly every property manager operating in Jerusalem today.",
+    title: "We charge what we charge. And that is everything.",
+    body: "Our pricing is a formula: 15 NIS per square meter per month, minimum 1,800 NIS. Sub-contractors are passed through at actual cost. Zero markup, ever. Hourly supervision is billed at 400 NIS, in 15-minute increments, with a 30-minute minimum. You know what you will pay before you sign, and the invoice never surprises you. This alone separates us from nearly every property manager operating in Jerusalem today.",
   },
   {
-    title: "We answer in 24 hours. Always.",
-    body: "This is not a policy aspiration. It is a contractual standard. Even if there is no news to report, you will hear from us — because knowing that everything is in order is itself valuable. North American owners should not have to send a follow-up message, wonder if their message was received, or adjust their expectations downward because that is how things work in Israel. We hold ourselves to the communication standard you would expect from a service provider at home — because that is the service we are selling.",
+    title: "We answer in 24 hours. Sooner in an emergency.",
+    body: "This is not a policy aspiration. It is a contractual standard. Even if there is no news to report, you will hear from us. Knowing that everything is in order is itself valuable. North American owners should not have to send a follow-up message, wonder if their message was received, or adjust their expectations downward because that is how things work in Israel. For emergencies, we act first and report immediately. We hold ourselves to the communication standard you would expect from a service provider at home. That is the service we are selling.",
   },
   {
     title: "We are boutique by choice, not by circumstance.",
-    body: "We manage fewer homes than we could. This is deliberate. It is what allows us to know your building, your Vaad Habayit chairman, your preferred grocery list, and the exact age and expectations of your major systems. Scale is not our goal. Being the best property manager for a small number of homes — and earning that reputation — is.",
+    body: "We manage fewer homes than we could. This is deliberate. It is what allows us to know your building, your Vaad Habayit chairman, your preferred grocery list, and the exact age and expectations of your major systems. Scale is not our goal. Being the best property manager for a small number of homes, and earning that reputation, is.",
   },
 ];
 
@@ -89,34 +89,40 @@ export default function WhyShalomBayitPage() {
             The honest comparison
           </p>
           <h2
-            className="font-display text-4xl lg:text-5xl font-light mb-12 max-w-2xl"
+            className="font-display text-4xl lg:text-5xl font-light mb-8 max-w-2xl"
             style={{ color: "#2C2A28" }}
           >
             Israeli property management today.
           </h2>
+          <p
+            className="font-body text-base leading-relaxed mb-12 max-w-3xl"
+            style={{ color: "rgba(44,42,40,0.65)" }}
+          >
+            We do one thing and one thing only: vacant home management for North American owners in Jerusalem&apos;s inner corridor. Rechavia, Talbiya, Baka, the German Colony. We do not sell properties. We do not lease them. We do not manage Airbnb rentals. We do not offer general real estate services. The narrow focus is not a gap in our offering. It is the offering.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px" style={{ backgroundColor: "rgba(210,190,158,0.4)" }}>
             {[
               {
                 label: "The typical Israeli manager",
                 points: [
-                  "A lawyer, accountant, real estate agent, or designer — or a neighbor or family member — doing this as a side business",
-                  "Opaque pricing — percentage of rent, or vague retainers",
+                  "A lawyer, accountant, real estate agent, or designer, or a neighbor or family member, doing this as a side business",
+                  "Opaque pricing: percentage of rent, or vague retainers",
                   "Responsive on Israeli time, not your time",
-                  "No structured reporting — you ask, sometimes you get an answer",
+                  "No structured reporting. You ask; sometimes you get an answer.",
                   "Markup on contractor work, often undisclosed",
-                  "Does not know your home — manages dozens like it",
+                  "Does not know your home. Manages dozens like it.",
                 ],
                 dark: false,
               },
               {
                 label: "Shalom Bayit",
                 points: [
-                  "Purpose-built for this role — nothing else on the side",
-                  "15 NIS/sqm, minimum 1,800 NIS per month — a formula, not a negotiation",
-                  "Responds within 24 hours, always — sooner for urgent matters",
+                  "Purpose-built for this role. Nothing else on the side.",
+                  "15 NIS/sqm, minimum 1,800 NIS per month. A formula, not a negotiation.",
+                  "Responds within 24 hours, always. Sooner for urgent matters.",
                   "Monthly written report and video, delivered without asking",
-                  "Zero markup on sub-contractors, ever — invoice passed through at cost",
-                  "Knows your home by name — manages fewer homes to do each better",
+                  "Zero markup on sub-contractors, ever. Invoice passed through at cost.",
+                  "Knows your home by name. Manages fewer homes to do each better.",
                 ],
                 dark: true,
               },

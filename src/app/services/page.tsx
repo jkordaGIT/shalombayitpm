@@ -11,12 +11,12 @@ const categories = [
   {
     title: "Property Oversight",
     intro:
-      "The foundation of everything we do. Your home is physically inspected twice a month by the same team member — with standardized photography, a written condition report, and a short walkthrough video. You receive this package within five business days of the second inspection, every month, without asking.",
+      "The foundation of everything we do. Your home is physically inspected twice a month by the same team member, with standardized photography, a written condition report, and a short walkthrough video. You receive this package within five business days of the second inspection, every month, without asking.",
     services: [
       "Two scheduled interior inspections per month",
-      "Standardized photo documentation — same angles, every visit",
+      "Standardized photo documentation, same angles, every visit",
       "Monthly written narrative report with issue severity ratings",
-      "Accompanying walkthrough video — a named team member on camera",
+      "Accompanying walkthrough video, a named team member on camera",
       "Plumbing, electrical, HVAC, boiler, and appliance checks",
       "Window, shutter, balcony, lock, and safety system checks",
       "Moisture, humidity, and odor detection",
@@ -26,26 +26,26 @@ const categories = [
   {
     title: "Maintenance & Repairs",
     intro:
-      "When something needs attention, we handle it. Vetted contractors, zero markup on costs, and complete visibility on every invoice. You approve any expense above 1,000 NIS before work begins — except in emergencies, where we act first and document immediately.",
+      "When something needs attention, we handle it. Vetted contractors, zero markup on costs, and complete visibility on every invoice. You approve any expense above 1,000 NIS before work begins, except in emergencies, where we act first and document immediately.",
     services: [
-      "Vetted contractor network — licensed, insured, performance-tracked",
+      "Vetted contractor network, licensed, insured, and performance-tracked",
       "Quote collection and comparison for non-urgent repairs",
       "On-site supervision of all contractor work",
       "Quality control inspection after every job",
       "Zero markup on sub-contractor and vendor costs",
       "Owner approval required above 1,000 NIS per occurrence",
-      "Emergency response 24/7 — we act, then we report",
+      "Emergency response 24/7: we act, then we report",
       "Preventive maintenance identification and scheduling",
     ],
   },
   {
     title: "Holiday & Chag Services",
     intro:
-      "We understand the Jewish calendar because we live it. Your home is prepared before every Shabbat or Yom Tov arrival — not as a checklist item, but as an expression of what it means to walk into a home that was waiting for you.",
+      "We understand the Jewish calendar because we live it. Your home is prepared before every Shabbat or Yom Tov arrival, not as a checklist item, but as an expression of what it means to walk into a home that was waiting for you.",
     services: [
       "Pre-Shabbat and pre-Yom Tov home preparation",
       "Fresh linens, aired home, kitchen stocked to your standing list",
-      "Shabbat preparation tailored to your observance level and exact preferences",
+      "Pre-Shabbat and pre-chag preparation done to your personal specifications",
       "Sukkah building and breakdown coordination",
       "Pesach kitchen preparation and chametz removal coordination",
       "Rosh Hashana arrival packages",
@@ -55,7 +55,7 @@ const categories = [
   {
     title: "Arrival Preparation",
     intro:
-      "Walk in and feel at home — regardless of how long you have been away. We prepare your home to your exact specifications before every arrival, so the transition from airport to home is seamless.",
+      "Walk in and feel at home, regardless of how long you have been away. We prepare your home to your exact specifications before every arrival, so the transition from airport to home is seamless.",
     services: [
       "Climate control activated before your arrival",
       "Full home airing and refresh",
@@ -70,7 +70,7 @@ const categories = [
   {
     title: "Legal & Financial Coordination",
     intro:
-      "The Israeli administrative layer — Arnona, Vaad Habayit, utility accounts, municipal bureaucracy — is handled on your behalf. You should never need to navigate an Israeli government office from abroad.",
+      "The Israeli administrative layer, Arnona, Vaad Habayit, utility accounts, municipal bureaucracy, is handled on your behalf. You should never need to navigate an Israeli government office from abroad.",
     services: [
       "Arnona (property tax) monitoring and communication",
       "Vaad Habayit (building committee) liaison and payment coordination",
@@ -85,10 +85,10 @@ const categories = [
   {
     title: "Concierge Services",
     intro:
-      "Beyond the home itself. When you need things arranged — whether before you arrive, during your stay, or for family and guests — we are the local address for everything that requires a trusted presence in Jerusalem.",
+      "Beyond the home itself. When you need things arranged, whether before you arrive, during your stay, or for family and guests, we are the local address for everything that requires a trusted presence in Jerusalem.",
     services: [
       "Guest and family key handover and home orientation",
-      "On-call support during guest stays — issues resolved without involving you",
+      "On-call support during guest stays. Issues resolved without involving you.",
       "Restaurant, service, and experience reservations",
       "Transportation and driver coordination",
       "Package handling and specialty deliveries",
@@ -100,7 +100,7 @@ const categories = [
   {
     title: "Our Network of Trusted Professionals",
     intro:
-      "We do one thing and do it exceptionally well. But we understand that owning a home in Jerusalem touches every aspect of life here — legal, financial, architectural, administrative. We have built trusted relationships with the professionals North American owners need most: people who communicate at your standards, understand diaspora client expectations, and have earned our confidence through consistent performance. We make introductions when you need them. We never mark up their services.",
+      "We do one thing and do it exceptionally well. But we understand that owning a home in Jerusalem touches every aspect of life here, legal, financial, architectural, administrative. We have built trusted relationships with the professionals North American owners need most: people who communicate at your standards, understand diaspora client expectations, and have earned our confidence through consistent performance. We make introductions when you need them. We never mark up their services.",
     services: [
       "Real estate attorneys experienced with North American diaspora clients",
       "Accountants specializing in Israeli-American and Israeli-Canadian tax matters",
@@ -119,7 +119,7 @@ export default function ServicesPage() {
       <PageHero
         label="What we do"
         headline="Every service your Jerusalem home needs."
-        subheadline="Organized around real owner needs — not a generic property management checklist."
+        subheadline="Organized around real owner needs, not a generic property management checklist."
       />
 
       {/* Services */}
@@ -199,7 +199,7 @@ export default function ServicesPage() {
             >
               The Chai Package covers property oversight, monthly reports, and routine coordination.
               Pricing is straightforward: 15 NIS per sqm per month, with a minimum of 1,800 NIS + VAT.
-              Sub-contractors are passed through at actual cost — zero markup, ever. Work requiring
+              Sub-contractors are passed through at actual cost. Zero markup, ever. Work requiring
               on-site supervision is billed at 400 NIS per hour, with a 30-minute minimum.
             </p>
             <p
@@ -207,7 +207,7 @@ export default function ServicesPage() {
               style={{ color: "rgba(44,42,40,0.65)" }}
             >
               The monthly retainer represents a small fraction of the cost of a single preventable
-              issue — a leak left undetected, a system failure that compounds over weeks. This is not
+              issue. A leak left undetected, a system failure that compounds over weeks. This is not
               overhead. It is protection.
             </p>
           </div>

@@ -13,13 +13,13 @@ const steps = [
     title: "Consultation",
     duration: "30–45 minutes",
     description:
-      "We begin with a conversation — not a sales pitch. We want to understand your home, your calendar, how often you visit, who uses the home in your absence, and what has frustrated you about property management in the past. This call happens over Zoom or WhatsApp, on your schedule, in your time zone.",
+      "We begin with a conversation. Not a sales pitch. We want to understand your home, your calendar, how often you visit, who uses the home in your absence, and what has frustrated you about property management in the past. This call happens over Zoom or WhatsApp, on your schedule, in your time zone.",
     details: [
-      "We ask about your home — size, age, systems, any known issues",
+      "We ask about your home: size, age, systems, any known issues",
       "We ask about your visit patterns and who has access",
       "We explain exactly what we do and what we do not do",
       "We answer every question you have about pricing and process",
-      "No obligation, no pressure — just clarity",
+      "No obligation, no pressure. Just clarity.",
     ],
   },
   {
@@ -27,7 +27,7 @@ const steps = [
     title: "Property Assessment",
     duration: "1–2 hours on-site",
     description:
-      "Before any agreement is signed, we walk through your home. In person if you are in Jerusalem, or via a thorough video walkthrough with a live call if you are abroad. We document the current condition of every room and system — this becomes the baseline record for everything that follows.",
+      "Before any agreement is signed, we walk through your home. In person if you are in Jerusalem, or via a thorough video walkthrough with a live call if you are abroad. We document the current condition of every room and system. This becomes the baseline record for everything that follows.",
     details: [
       "Full interior walkthrough with photo and video documentation",
       "Systems check: plumbing, electrical, HVAC, boiler, appliances",
@@ -46,7 +46,7 @@ const steps = [
       "One clear monthly fee based on your property's square meterage",
       "Explicit list of what is included in the base package",
       "Clear definition of what triggers the 400 NIS/hour supervision fee",
-      "Agreed spending threshold (1,000 NIS) — above which we always ask first",
+      "Agreed spending threshold (1,000 NIS): above which we always ask first",
       "Emergency response protocol and communication standards in writing",
     ],
   },
@@ -55,11 +55,11 @@ const steps = [
     title: "Ongoing Management",
     duration: "Every month, indefinitely",
     description:
-      "From the moment the agreement is signed, your home is in our care. Two inspections per month. A written report and walkthrough video delivered within five business days. Proactive outreach the same day anything critical is found. You are never the last to know — and you never have to chase us for an update.",
+      "From the moment the agreement is signed, your home is in our care. Two inspections per month. A written report and walkthrough video delivered within five business days. Proactive outreach the same day anything critical is found. You are never the last to know. You never have to chase us for an update.",
     details: [
-      "Two physical inspections per month — same team, same standards",
+      "Two physical inspections per month, same team, same standards",
       "Monthly PDF report and walkthrough video within 5 business days",
-      "Same-day notification for any Critical finding",
+      "Same-day notification for any critical finding",
       "All WhatsApp messages answered within 24 hours (sooner for urgent matters)",
       "Full maintenance history maintained and available on request",
       "Annual property health summary with forward-looking recommendations",
@@ -156,7 +156,7 @@ export default function HowItWorksPage() {
             {[
               {
                 title: "Written Report",
-                body: "A full narrative of your property's condition — every room, every system, every issue found and rated by severity. Photographs of every standard angle, every visit.",
+                body: "A full narrative of your property's condition: every room, every system, every issue found and rated by severity. Photographs of every standard angle, every visit.",
               },
               {
                 title: "Walkthrough Video",

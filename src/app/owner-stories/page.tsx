@@ -105,7 +105,7 @@ export default function OwnerStoriesPage() {
               className="font-body text-base leading-relaxed"
               style={{ color: "rgba(44,42,40,0.65)" }}
             >
-              We believe in specificity. Vague testimonials — "great service," "highly recommend" — tell you nothing. These stories include real details: what the owner's situation was, what was frustrating, what changed. We share initials rather than full names out of respect for our owners' privacy. Prospective clients are welcome to request a direct introduction to an existing owner.
+              We believe in specificity. Vague testimonials ("great service," "highly recommend") tell you nothing. These stories include real details: what the owner's situation was, what was frustrating, what changed. We share initials rather than full names out of respect for our owners' privacy. Prospective clients are welcome to request a direct introduction to an existing owner.
             </p>
           </div>
           <div className="lg:pt-12">

@@ -38,7 +38,7 @@ export default function ContactPage() {
       <PageHero
         label="Get in touch"
         headline="Tell us about your home."
-        subheadline="We begin with a conversation. No commitment, no pressure — just an honest discussion about what your Jerusalem home needs and whether we are the right fit."
+        subheadline="We begin with a conversation. No commitment, no pressure. Just an honest discussion about what your Jerusalem home needs and whether we are the right fit."
       />
 
       <section className="py-16 lg:py-24" style={{ backgroundColor: "#F7F3EE" }}>
@@ -80,7 +80,7 @@ export default function ContactPage() {
                 WhatsApp
               </p>
               <p className="font-body text-base" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Available — details provided after initial consultation
+                Available. Details provided after initial consultation.
               </p>
             </div>
             <div>
@@ -91,7 +91,7 @@ export default function ContactPage() {
                 Response time
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Within 24 hours on business days. We are aware of North American time zones and schedule conversations to suit you — mornings in Israel are evenings in New York.
+                Within 24 hours on business days. We are aware of North American time zones and schedule conversations to suit you. Mornings in Israel are evenings in New York.
               </p>
             </div>
             <div>
@@ -230,7 +230,7 @@ export default function ContactPage() {
                     required
                     value={form.message}
                     onChange={handleChange}
-                    placeholder="What does your apartment need? What has frustrated you about property management in the past?"
+                    placeholder="What does your home need? What has frustrated you about property management in the past?"
                     className="px-0 py-3 font-body text-base bg-transparent border-b outline-none resize-none placeholder:opacity-30"
                     style={{
                       borderColor: "rgba(44,42,40,0.2)",

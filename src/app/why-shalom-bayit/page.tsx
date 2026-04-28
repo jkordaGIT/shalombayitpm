@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -77,6 +78,18 @@ export default function WhyShalomBayitPage() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* Full-bleed hero panorama */}
+      <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
+        <Image
+          src="/images/sb_homepage_hero_golden_hour_panorama.jpg"
+          alt="Jerusalem at golden hour"
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.5) 0%, rgba(44,42,40,0.1) 100%)" }} />
       </section>
 
       {/* The honest comparison */}

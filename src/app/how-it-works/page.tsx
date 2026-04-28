@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -189,6 +190,18 @@ export default function HowItWorksPage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Full-bleed panorama break */}
+      <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
+        <Image
+          src="/images/sb_jerusalem_panorama_old_city_aerial_daytime.jpg"
+          alt="Old City of Jerusalem aerial panorama"
+          fill
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0" style={{ background: "rgba(44,42,40,0.35)" }} />
       </section>
 
       {/* CTA */}

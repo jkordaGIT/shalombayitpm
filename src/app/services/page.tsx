@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -171,6 +172,28 @@ export default function ServicesPage() {
                   ))}
                 </ul>
               </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Property photo strip */}
+      <section style={{ backgroundColor: "#F7F3EE" }}>
+        <div className="grid grid-cols-2 lg:grid-cols-4">
+          {[
+            { src: "/images/sb_property_modern_luxury_modern_building.jpg", alt: "Modern luxury residential building in Jerusalem" },
+            { src: "/images/sb_property_classic_classic_jerusalem_stone.jpg", alt: "Classic Jerusalem stone building" },
+            { src: "/images/sb_property_tower_elegant_tower_building.jpg", alt: "Elegant tower residential building in Jerusalem" },
+            { src: "/images/sb_property_neighborhood_kiryat_shmuel.jpg", alt: "Kiryat Shmuel neighborhood, Jerusalem" },
+          ].map((photo) => (
+            <div key={photo.src} className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, 25vw"
+              />
             </div>
           ))}
         </div>

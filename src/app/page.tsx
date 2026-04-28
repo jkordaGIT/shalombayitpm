@@ -8,12 +8,13 @@ function Hero() {
       {/* Full-bleed hero photo */}
       <div className="absolute inset-0" aria-hidden="true">
         <Image
-          src="/images/sb_homepage_hero_golden_hour_panorama.jpg"
-          alt="Jerusalem at golden hour, Old City panorama"
+          src="/images/bridge.jpeg"
+          alt="Calatrava Chords Bridge, Jerusalem"
           fill
           priority
           className="object-cover object-center"
           sizes="100vw"
+          style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
         {/* Gradient overlay */}
         <div
@@ -186,24 +187,24 @@ function ServicesPreview() {
 /* ─── Section: Jerusalem Photo Strip ─────────────────────────── */
 const jerusalemPhotos = [
   {
-    src: "/images/sb_jerusalem_street_mamilla_umbrellas.jpg",
-    alt: "Mamilla pedestrian street with colourful umbrellas",
+    src: "/images/yoel-solomon.jpeg",
+    alt: "Yoel Solomon Street, Nahalat Shiva, Jerusalem",
+    caption: "Nahalat Shiva",
+  },
+  {
+    src: "/images/mamilla.jpeg",
+    alt: "Mamilla covered promenade, Jerusalem",
     caption: "Mamilla",
   },
   {
-    src: "/images/sb_jerusalem_landmark_king_david_hotel_area.jpg",
-    alt: "King David Hotel and Mishkenot area, Jerusalem",
-    caption: "Rechavia & Talbiya",
+    src: "/images/old-city.jpeg",
+    alt: "Old City of Jerusalem panorama",
+    caption: "Old City",
   },
   {
-    src: "/images/sb_jerusalem_bridge_calatrava_bridge.jpg",
-    alt: "Calatrava Chords Bridge, Jerusalem",
-    caption: "Modern Jerusalem",
-  },
-  {
-    src: "/images/sb_jerusalem_panorama_old_city_aerial_daytime.jpg",
-    alt: "Old City of Jerusalem panorama with Dome of the Rock",
-    caption: "The Old City",
+    src: "/images/consulate.jpeg",
+    alt: "Talbiya neighbourhood, Jerusalem",
+    caption: "Talbiya",
   },
 ];
 
@@ -232,6 +233,7 @@ function JerusalemStrip() {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw"
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
               <div
                 className="absolute inset-0"
@@ -263,18 +265,9 @@ function JerusalemStrip() {
 
 /* ─── Section: Property Photo Strip ──────────────────────────── */
 const propertyPhotos = [
-  {
-    src: "/images/sb_property_modern_luxury_modern_building.jpg",
-    alt: "Modern luxury residential building in Jerusalem",
-  },
-  {
-    src: "/images/sb_property_classic_classic_jerusalem_stone.jpg",
-    alt: "Classic Jerusalem stone building",
-  },
-  {
-    src: "/images/sb_property_tower_elegant_tower_building.jpg",
-    alt: "Elegant tower residential building in Jerusalem",
-  },
+  { src: "/images/apt1.jpeg", alt: "Classic Jerusalem stone apartment building" },
+  { src: "/images/apt2.jpeg", alt: "Modern Jerusalem stone tower with glass balconies" },
+  { src: "/images/apt3.jpeg", alt: "Jerusalem stone building with arched windows" },
 ];
 
 function PropertyStrip() {
@@ -302,6 +295,7 @@ function PropertyStrip() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 33vw"
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
             </div>
           ))}

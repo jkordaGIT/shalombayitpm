@@ -195,11 +195,12 @@ export default function HowItWorksPage() {
       {/* Full-bleed panorama break */}
       <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
         <Image
-          src="/images/sb_jerusalem_panorama_old_city_aerial_daytime.jpg"
-          alt="Old City of Jerusalem aerial panorama"
+          src="/images/consulate.jpeg"
+          alt="Talbiya neighbourhood, Jerusalem"
           fill
           className="object-cover object-center"
           sizes="100vw"
+          style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
         <div className="absolute inset-0" style={{ background: "rgba(44,42,40,0.35)" }} />
       </section>

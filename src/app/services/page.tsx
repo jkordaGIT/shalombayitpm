@@ -181,10 +181,10 @@ export default function ServicesPage() {
       <section style={{ backgroundColor: "#F7F3EE" }}>
         <div className="grid grid-cols-2 lg:grid-cols-4">
           {[
-            { src: "/images/sb_property_modern_luxury_modern_building.jpg", alt: "Modern luxury residential building in Jerusalem" },
-            { src: "/images/sb_property_classic_classic_jerusalem_stone.jpg", alt: "Classic Jerusalem stone building" },
-            { src: "/images/sb_property_tower_elegant_tower_building.jpg", alt: "Elegant tower residential building in Jerusalem" },
-            { src: "/images/sb_property_neighborhood_kiryat_shmuel.jpg", alt: "Kiryat Shmuel neighborhood, Jerusalem" },
+            { src: "/images/apt1.jpeg", alt: "Classic Jerusalem stone apartment building" },
+            { src: "/images/apt2.jpeg", alt: "Modern Jerusalem stone tower with glass balconies" },
+            { src: "/images/apt3.jpeg", alt: "Jerusalem stone building with arched windows" },
+            { src: "/images/talbieh-apt.jpeg", alt: "Luxury modern residential complex in Talbiya" },
           ].map((photo) => (
             <div key={photo.src} className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
               <Image
@@ -193,6 +193,7 @@ export default function ServicesPage() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 25vw"
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
             </div>
           ))}

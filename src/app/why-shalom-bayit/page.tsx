@@ -83,11 +83,12 @@ export default function WhyShalomBayitPage() {
       {/* Full-bleed hero panorama */}
       <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
         <Image
-          src="/images/sb_homepage_hero_golden_hour_panorama.jpg"
-          alt="Jerusalem at golden hour"
+          src="/images/alley.jpeg"
+          alt="A Jerusalem stone alley"
           fill
           className="object-cover object-center"
           sizes="100vw"
+          style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.5) 0%, rgba(44,42,40,0.1) 100%)" }} />
       </section>

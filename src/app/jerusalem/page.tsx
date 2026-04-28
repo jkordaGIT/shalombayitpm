@@ -82,10 +82,10 @@ export default function JerusalemPage() {
       <section className="py-0" style={{ backgroundColor: "#F7F3EE" }}>
         <div className="grid grid-cols-2 lg:grid-cols-4">
           {[
-            { src: "/images/sb_jerusalem_street_mamilla_umbrellas.jpg", alt: "Mamilla pedestrian street with colourful umbrellas", caption: "Mamilla" },
-            { src: "/images/sb_jerusalem_landmark_king_david_hotel_area.jpg", alt: "King David Hotel and Mishkenot area", caption: "Rechavia & Talbiya" },
-            { src: "/images/sb_jerusalem_bridge_calatrava_bridge.jpg", alt: "Calatrava Chords Bridge", caption: "Modern Jerusalem" },
-            { src: "/images/sb_jerusalem_panorama_old_city_aerial_daytime.jpg", alt: "Old City of Jerusalem panorama", caption: "The Old City" },
+            { src: "/images/yoel-solomon.jpeg", alt: "Yoel Solomon Street, Nahalat Shiva", caption: "Nahalat Shiva" },
+            { src: "/images/mamilla.jpeg", alt: "Mamilla covered promenade", caption: "Mamilla" },
+            { src: "/images/old-city.jpeg", alt: "Old City of Jerusalem panorama", caption: "Old City" },
+            { src: "/images/mamilla2.jpeg", alt: "Mamilla open-air plaza", caption: "Mamilla" },
           ].map((photo) => (
             <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
               <Image
@@ -94,6 +94,7 @@ export default function JerusalemPage() {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw"
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
               <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.6) 0%, transparent 50%)" }} />
               <p className="absolute bottom-4 left-4 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>

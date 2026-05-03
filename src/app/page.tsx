@@ -27,7 +27,7 @@ function Hero() {
         <div className="max-w-3xl">
           <p
             className="font-body text-xs font-medium uppercase tracking-widest mb-6"
-            style={{ color: "#A68B5B" }}
+            style={{ color: "#FFFFFF", textShadow: "0 1px 4px rgba(0,0,0,0.6)" }}
           >
             Jerusalem Property Management
           </p>

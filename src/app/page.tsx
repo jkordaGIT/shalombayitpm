@@ -12,7 +12,7 @@ function Hero() {
           alt="Calatrava Chords Bridge, Jerusalem"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover [object-position:85%_center]"
           sizes="100vw"
           style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
@@ -48,7 +48,7 @@ function Hero() {
             <Link
               href="/contact"
               className="inline-block px-8 py-4 font-body text-sm font-medium uppercase tracking-widest transition-colors"
-              style={{ backgroundColor: "#5C6B3A", color: "#F7F3EE" }}
+              style={{ backgroundColor: "#4682B4", color: "#F7F3EE" }}
             >
               Request a Consultation
             </Link>
@@ -421,7 +421,7 @@ function CTA() {
         <Link
           href="/contact"
           className="inline-block px-10 py-4 font-body text-sm font-medium uppercase tracking-widest transition-colors"
-          style={{ backgroundColor: "#5C6B3A", color: "#F7F3EE" }}
+          style={{ backgroundColor: "#4682B4", color: "#F7F3EE" }}
         >
           Request a Consultation
         </Link>

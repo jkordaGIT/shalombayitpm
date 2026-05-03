@@ -8,11 +8,11 @@ function Hero() {
       {/* Full-bleed hero photo */}
       <div className="absolute inset-0" aria-hidden="true">
         <Image
-          src="/images/bridge.jpeg"
-          alt="Calatrava Chords Bridge, Jerusalem"
+          src="/images/jerusalem-sunset.png"
+          alt="Jerusalem sunset over the Old City"
           fill
           priority
-          className="object-cover [object-position:60%_center]"
+          className="object-cover object-center"
           sizes="100vw"
           style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />

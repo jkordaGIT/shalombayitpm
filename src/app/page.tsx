@@ -12,7 +12,7 @@ function Hero() {
           alt="Calatrava Chords Bridge, Jerusalem"
           fill
           priority
-          className="object-cover [object-position:85%_center]"
+          className="object-cover [object-position:60%_center]"
           sizes="100vw"
           style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />

@@ -18,24 +18,24 @@ export default function Nav() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-stone/30">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="font-display text-2xl font-light tracking-wide text-charcoal hover:text-gold transition-colors">
+        <Link href="/" className="font-display text-2xl font-light tracking-wide text-charcoal hover:text-gold transition-colors whitespace-nowrap">
           Shalom Bayit
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-10">
+        <nav className="hidden lg:flex items-center gap-6">
           {links.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="font-body text-sm font-medium uppercase tracking-widest text-charcoal/70 hover:text-charcoal transition-colors"
+              className="font-body text-sm font-medium uppercase tracking-wider text-charcoal/70 hover:text-charcoal transition-colors whitespace-nowrap"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="/contact"
-            className="ml-4 px-6 py-2.5 bg-olive text-cream font-body text-sm font-medium uppercase tracking-widest hover:bg-stone-dark transition-colors"
+            className="ml-2 px-5 py-2.5 bg-olive text-cream font-body text-sm font-medium uppercase tracking-wider hover:bg-stone-dark transition-colors whitespace-nowrap"
           >
             Request a Consultation
           </Link>

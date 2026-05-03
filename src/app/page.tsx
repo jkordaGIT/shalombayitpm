@@ -35,7 +35,7 @@ function Hero() {
             className="font-display text-6xl lg:text-8xl font-light leading-tight mb-8"
             style={{ color: "#F7F3EE" }}
           >
-            Your Jerusalem home. Cared for like our own.
+            Your Jerusalem home, cared for like our own.
           </h1>
           <p
             className="font-body text-lg leading-relaxed mb-10 max-w-xl"

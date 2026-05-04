@@ -192,14 +192,14 @@ const jerusalemPhotos = [
     caption: "Nahalat Shiva",
   },
   {
-    src: "/images/mamilla.jpeg",
-    alt: "Mamilla covered promenade, Jerusalem",
-    caption: "Mamilla",
-  },
-  {
     src: "/images/jerusalem-sunset.png",
     alt: "Jerusalem sunset over the Old City",
     caption: "Old City",
+  },
+  {
+    src: "/images/mamilla.jpeg",
+    alt: "Mamilla covered promenade, Jerusalem",
+    caption: "Mamilla",
   },
   {
     src: "/images/consulate.jpeg",

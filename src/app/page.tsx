@@ -216,6 +216,11 @@ const jerusalemPhotos = [
     alt: "Ben Yehuda Street, Jerusalem City Center",
     caption: "City Center",
   },
+  {
+    src: "/images/baka.jpg",
+    alt: "Jerusalem stone villa in Baka neighbourhood",
+    caption: "Baka",
+  },
 ];
 
 function JerusalemStrip() {

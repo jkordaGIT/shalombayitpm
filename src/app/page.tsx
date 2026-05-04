@@ -202,9 +202,9 @@ const jerusalemPhotos = [
     caption: "Mamilla",
   },
   {
-    src: "/images/consulate.jpeg",
-    alt: "Talbiya neighbourhood, Jerusalem",
-    caption: "Talbiya",
+    src: "/images/baka.jpg",
+    alt: "Jerusalem stone villa in Baka neighbourhood",
+    caption: "Baka",
   },
   {
     src: "/images/yemin-moshe.jpg",
@@ -215,11 +215,6 @@ const jerusalemPhotos = [
     src: "/images/city-center.jpg",
     alt: "Ben Yehuda Street, Jerusalem City Center",
     caption: "City Center",
-  },
-  {
-    src: "/images/baka.jpg",
-    alt: "Jerusalem stone villa in Baka neighbourhood",
-    caption: "Baka",
   },
 ];
 

@@ -197,8 +197,8 @@ const jerusalemPhotos = [
     caption: "Mamilla",
   },
   {
-    src: "/images/old-city.jpeg",
-    alt: "Old City of Jerusalem panorama",
+    src: "/images/jerusalem-sunset.png",
+    alt: "Jerusalem sunset over the Old City",
     caption: "Old City",
   },
   {

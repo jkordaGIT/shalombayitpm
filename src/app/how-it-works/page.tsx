@@ -193,18 +193,18 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Full-bleed panorama break */}
-      <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
+      <section className="relative overflow-hidden" style={{ backgroundColor: "#F7F3EE" }}>
         <Image
-          src="/images/german-theater.jpg"
-          alt="German Colony neighbourhood, Jerusalem"
-          fill
-          className="object-cover object-center"
+          src="/images/pat.jpg"
+          alt="Pat neighbourhood, Jerusalem"
+          width={1600}
+          height={1066}
+          className="w-full h-auto"
           sizes="100vw"
           style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
-        <div className="absolute inset-0" style={{ background: "rgba(44,42,40,0.35)" }} />
-        <p className="absolute bottom-4 left-6 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>
-          German Colony
+        <p className="absolute bottom-4 left-6 font-body text-xs uppercase tracking-widest" style={{ color: "#2C2A28" }}>
+          Pat
         </p>
       </section>
 

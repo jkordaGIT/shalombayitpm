@@ -200,6 +200,7 @@ const jerusalemPhotos = [
     src: "/images/nachlaot.jpg",
     alt: "Nachlaot neighbourhood, Jerusalem",
     caption: "Nachlaot",
+    position: "70% center",
   },
   {
     src: "/images/yemin-moshe.jpg",
@@ -238,7 +239,7 @@ function JerusalemStrip() {
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
                 sizes="(max-width: 768px) 50vw, 25vw"
-                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", objectPosition: (photo as any).position ?? "center" }}
               />
               <div
                 className="absolute inset-0"

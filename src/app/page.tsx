@@ -197,11 +197,6 @@ const jerusalemPhotos = [
     caption: "Old City",
   },
   {
-    src: "/images/mamilla.jpeg",
-    alt: "Mamilla covered promenade, Jerusalem",
-    caption: "Mamilla",
-  },
-  {
     src: "/images/baka.jpg",
     alt: "Jerusalem stone villa in Baka neighbourhood",
     caption: "Baka",
@@ -234,7 +229,7 @@ function JerusalemStrip() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-3 lg:grid-cols-5 gap-3">
           {jerusalemPhotos.map((photo) => (
             <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "2/3" }}>
               <Image

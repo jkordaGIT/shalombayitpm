@@ -361,9 +361,6 @@ function HowItWorks() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((s) => (
             <div key={s.num}>
-              <p className="font-display text-6xl font-light mb-6" style={{ color: "#D2BE9E" }}>
-                {s.num}
-              </p>
               <h3 className="font-display text-2xl font-light mb-3" style={{ color: "#2C2A28" }}>
                 {s.title}
               </h3>

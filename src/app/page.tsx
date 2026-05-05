@@ -114,17 +114,17 @@ const services = [
   {
     category: "Shabbat & Holiday Preparation",
     description:
-      "Your home readied before you arrive — Shabbat ritual and meal preparation based on your exact preferences. We understand the calendar because we live it.",
+      "Your home readied before you arrive — Shabbat and meal preparation based on your exact preferences. We understand the calendar because we live it.",
   },
   {
     category: "Maintenance & Repairs",
     description:
-      "Vetted contractors, zero markup on costs, complete transparency on every invoice. We coordinate; you approve anything above 1,000 NIS.",
+      "Vetted contractors, zero markup on costs, complete transparency on every invoice. We coordinate and you approve anything above 1,000 NIS.",
   },
   {
     category: "Arrival Preparation",
     description:
-      "Walk in and feel at home. Climate control on, your grocery list filled, the home aired and ready — the moment you land.",
+      "Walk in and feel at home. Climate control on, your grocery list filled, the home cleaned and ready — the moment you land.",
   },
   {
     category: "Legal & Financial Liaison",

@@ -224,8 +224,8 @@ function JerusalemStrip() {
           >
             The city
           </p>
-          <h2 className="font-display text-5xl lg:text-6xl font-light max-w-2xl" style={{ color: "#2C2A28" }}>
-            Jerusalem is unlike anywhere else on earth.
+          <h2 className="font-display text-4xl lg:text-5xl font-light whitespace-nowrap" style={{ color: "#2C2A28" }}>
+            Jerusalem Is Unlike Anywhere Else On Earth.
           </h2>
         </div>
 
@@ -286,8 +286,8 @@ function PropertyStrip() {
           >
             The homes we care for
           </p>
-          <h2 className="font-display text-5xl lg:text-6xl font-light max-w-2xl" style={{ color: "#2C2A28" }}>
-            Every Jerusalem home tells a story.
+          <h2 className="font-display text-4xl lg:text-5xl font-light whitespace-nowrap" style={{ color: "#2C2A28" }}>
+            Every Jerusalem Home Tells A Story.
           </h2>
         </div>
 

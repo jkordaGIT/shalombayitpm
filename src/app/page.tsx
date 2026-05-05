@@ -275,9 +275,9 @@ function JerusalemStrip() {
 
 /* ─── Section: Property Photo Strip ──────────────────────────── */
 const propertyPhotos = [
-  { src: "/images/apt1.jpeg", alt: "Classic Jerusalem stone apartment building" },
-  { src: "/images/apt2.jpeg", alt: "Modern Jerusalem stone tower with glass balconies" },
-  { src: "/images/apt3.jpeg", alt: "Jerusalem stone building with arched windows" },
+  { src: "/images/nachlaot.jpg", alt: "Nachlaot neighbourhood, Jerusalem", caption: "Nachlaot" },
+  { src: "/images/mamilla.jpeg", alt: "Mamilla covered promenade, Jerusalem", caption: "Mamilla" },
+  { src: "/images/hansen-sign.jpg", alt: "Hansen House, Talbiya, Jerusalem", caption: "Talbiya" },
 ];
 
 function PropertyStrip() {
@@ -298,7 +298,7 @@ function PropertyStrip() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {propertyPhotos.map((photo) => (
-            <div key={photo.src} className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+            <div key={photo.src} className="relative overflow-hidden group" style={{ aspectRatio: "4/3" }}>
               <Image
                 src={photo.src}
                 alt={photo.alt}
@@ -307,6 +307,14 @@ function PropertyStrip() {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
+              {photo.caption && (
+                <>
+                  <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.6) 0%, transparent 50%)" }} />
+                  <p className="absolute bottom-4 left-4 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>
+                    {photo.caption}
+                  </p>
+                </>
+              )}
             </div>
           ))}
         </div>

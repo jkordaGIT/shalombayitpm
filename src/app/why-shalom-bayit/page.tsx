@@ -15,7 +15,7 @@ const differentiators = [
   },
   {
     title: "We live the calendar you care about.",
-    body: "Your Jerusalem home exists inside a Jewish calendar: Shabbat, Rosh Hashana, Sukkot, Shavuot, Pesach. We do not need to be reminded that you want the home ready before Shabbat, or that Pesach kitchen preparation is not a minor detail. We understand this because it is our calendar too. This cultural fluency cannot be trained into a property manager. It has to be lived.",
+    body: "Your Jerusalem home exists inside a Jewish calendar: Shabbat, Rosh Hashanah, Sukkot, Pesach, Shavuot. We do not need to be reminded that you want the home ready before Shabbat, or that Pesach kitchen preparation is not a minor detail. We understand this because it is our calendar too. This cultural fluency cannot be trained into a property manager. It has to be lived.",
   },
   {
     title: "We send a video, not just a report.",

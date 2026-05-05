@@ -48,7 +48,7 @@ const categories = [
       "Fresh linens, aired home, kitchen stocked to your standing list",
       "Sukkah building and breakdown coordination",
       "Pesach kitchen preparation and chametz removal coordination",
-      "Rosh Hashana arrival packages",
+      "Chag arrival packages",
       "Seasonal chag inspection and home readiness checks",
     ],
   },
@@ -58,7 +58,7 @@ const categories = [
       "Walk in and feel at home, regardless of how long you have been away. We prepare your home to your exact specifications before every arrival, so the transition from airport to home is seamless.",
     services: [
       "Climate control activated before your arrival",
-      "Full home airing and refresh",
+      "Full home deep clean",
       "Grocery stocking to your standing or custom list",
       "Bed making and linen setup in all rooms",
       "Bathroom and toiletries prepared",

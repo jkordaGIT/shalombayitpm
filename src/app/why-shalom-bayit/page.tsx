@@ -83,8 +83,8 @@ export default function WhyShalomBayitPage() {
       {/* Full-bleed hero panorama */}
       <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
         <Image
-          src="/images/alley.jpeg"
-          alt="A Jerusalem stone alley"
+          src="/images/reuven.jpg"
+          alt="Jerusalem neighbourhood panorama"
           fill
           className="object-cover object-center"
           sizes="100vw"

@@ -69,15 +69,15 @@ function Hero() {
 /* ─── Section: Value Props ───────────────────────────────────── */
 const values = [
   {
-    label: "Boutique by design",
-    body: "We manage fewer homes to do each one better. You will always speak with someone who knows your apartment.",
+    label: "Boutique By Design",
+    body: "We manage fewer homes in order to focus our already focused attention. You will always speak with someone who knows your apartment.",
   },
   {
-    label: "Peace of mind",
+    label: "Peace Of Mind",
     body: "Two inspections a month. A written report and walkthrough video delivered to your inbox. You always know what is happening at your home.",
   },
   {
-    label: "North American standards",
+    label: "North American Standards",
     body: "Messages answered within 24 hours. Transparent pricing. No surprises. We operate at the level you expect at home.",
   },
 ];

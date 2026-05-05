@@ -131,14 +131,8 @@ export default function ServicesPage() {
               className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 pt-16 border-t"
               style={{ borderColor: "rgba(210,190,158,0.5)" }}
             >
-              {/* Number + Title */}
+              {/* Title */}
               <div className="lg:col-span-4">
-                <p
-                  className="font-display text-5xl font-light mb-4"
-                  style={{ color: "#D2BE9E" }}
-                >
-                  {i + 1}
-                </p>
                 <h2
                   className="font-display text-3xl font-light mb-6"
                   style={{ color: "#2C2A28" }}
@@ -155,9 +149,9 @@ export default function ServicesPage() {
 
               {/* Service list */}
               <div className="lg:col-span-8">
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
+                <ul className="columns-1 md:columns-2 gap-x-12">
                   {cat.services.map((s) => (
-                    <li key={s} className="flex items-start gap-3">
+                    <li key={s} className="flex items-start gap-3 break-inside-avoid mb-4">
                       <span
                         className="mt-2 shrink-0 w-1 h-1 rounded-full"
                         style={{ backgroundColor: "#A68B5B" }}

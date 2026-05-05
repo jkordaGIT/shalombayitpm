@@ -197,9 +197,9 @@ const jerusalemPhotos = [
     caption: "Old City",
   },
   {
-    src: "/images/baka.jpg",
-    alt: "Jerusalem stone villa in Baka neighbourhood",
-    caption: "Baka",
+    src: "/images/hansen-sign.jpg",
+    alt: "Hansen House, Talbiya, Jerusalem",
+    caption: "Talbiya",
   },
   {
     src: "/images/yemin-moshe.jpg",
@@ -272,7 +272,7 @@ function JerusalemStrip() {
 const propertyPhotos = [
   { src: "/images/nachlaot.jpg", alt: "Nachlaot neighbourhood, Jerusalem", caption: "Nachlaot" },
   { src: "/images/kd-back.png", alt: "Mamilla, Jerusalem", caption: "Mamilla" },
-  { src: "/images/hansen-sign.jpg", alt: "Hansen House, Talbiya, Jerusalem", caption: "Talbiya" },
+  { src: "/images/baka.jpg", alt: "Jerusalem stone villa in Baka neighbourhood", caption: "Baka" },
 ];
 
 function PropertyStrip() {

@@ -70,7 +70,7 @@ function Hero() {
 const values = [
   {
     label: "Boutique By Design",
-    body: "We manage fewer homes in order to focus our already focused attention. You will always speak with someone who knows your apartment.",
+    body: "We manage fewer homes in order to focus our already focused attention. You will always speak with someone who knows your home.",
   },
   {
     label: "Peace Of Mind",
@@ -124,7 +124,7 @@ const services = [
   {
     category: "Arrival Preparation",
     description:
-      "Walk in and feel at home. Climate control on, your grocery list filled, the apartment aired and ready — the moment you land.",
+      "Walk in and feel at home. Climate control on, your grocery list filled, the home aired and ready — the moment you land.",
   },
   {
     category: "Legal & Financial Liaison",
@@ -328,7 +328,7 @@ const steps = [
   {
     num: "02",
     title: "Assessment",
-    body: "We walk through your apartment together — in person or via video — and document its current condition.",
+    body: "We walk through your home together — in person or via video — and document its current condition.",
   },
   {
     num: "03",

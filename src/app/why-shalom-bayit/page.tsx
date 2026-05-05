@@ -100,7 +100,7 @@ export default function WhyShalomBayitPage() {
             className="font-body text-xs font-medium uppercase tracking-widest mb-6"
             style={{ color: "#A68B5B" }}
           >
-            The honest comparison
+            Jerusalem's expanding inner corridor
           </p>
           <h2
             className="font-display text-4xl lg:text-5xl font-light mb-8 max-w-2xl"

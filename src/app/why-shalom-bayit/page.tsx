@@ -80,17 +80,17 @@ export default function WhyShalomBayitPage() {
         </div>
       </section>
 
-      {/* Full-bleed hero panorama */}
-      <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
+      {/* Full-bleed panorama */}
+      <section style={{ backgroundColor: "#F7F3EE" }}>
         <Image
           src="/images/reuven.jpg"
           alt="Jerusalem neighbourhood panorama"
-          fill
-          className="object-cover object-center"
+          width={1600}
+          height={1200}
+          className="w-full h-auto"
           sizes="100vw"
           style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.5) 0%, rgba(44,42,40,0.1) 100%)" }} />
       </section>
 
       {/* The honest comparison */}

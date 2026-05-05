@@ -321,22 +321,22 @@ function PropertyStrip() {
 /* ─── Section: How It Works ──────────────────────────────────── */
 const steps = [
   {
-    num: "01",
+    num: "1",
     title: "Consultation",
     body: "A conversation about your home, your calendar, and what peace of mind means to you.",
   },
   {
-    num: "02",
+    num: "2",
     title: "Assessment",
     body: "We walk through your home together — in person or via video — and document its current condition.",
   },
   {
-    num: "03",
+    num: "3",
     title: "Agreement",
     body: "One clear contract. One transparent price. No surprises, no hidden fees, no ambiguity.",
   },
   {
-    num: "04",
+    num: "4",
     title: "Ongoing Management",
     body: "Your home is in our hands. You receive your report every month and hear from us whenever something needs attention.",
   },
@@ -354,7 +354,7 @@ function HowItWorks() {
             The process
           </p>
           <h2 className="font-display text-5xl lg:text-6xl font-light" style={{ color: "#2C2A28" }}>
-            Simple from the start.
+            Simple From The Start.
           </h2>
         </div>
 

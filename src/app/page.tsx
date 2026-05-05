@@ -270,7 +270,7 @@ function JerusalemStrip() {
 
 /* ─── Section: Property Photo Strip ──────────────────────────── */
 const propertyPhotos = [
-  { src: "/images/nachlaot.jpg", alt: "Nachlaot neighbourhood, Jerusalem", caption: "Nachlaot" },
+  { src: "/images/hansen-sign.jpg", alt: "Hansen House, Talbiya, Jerusalem", caption: "Talbiya" },
   { src: "/images/kd-back.png", alt: "Mamilla, Jerusalem", caption: "Mamilla" },
   { src: "/images/baka.jpg", alt: "Jerusalem stone villa in Baka neighbourhood", caption: "Baka" },
 ];

@@ -195,14 +195,17 @@ export default function HowItWorksPage() {
       {/* Full-bleed panorama break */}
       <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
         <Image
-          src="/images/consulate.jpeg"
-          alt="Talbiya neighbourhood, Jerusalem"
+          src="/images/german-theater.jpg"
+          alt="German Colony neighbourhood, Jerusalem"
           fill
           className="object-cover object-center"
           sizes="100vw"
           style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
         />
         <div className="absolute inset-0" style={{ background: "rgba(44,42,40,0.35)" }} />
+        <p className="absolute bottom-4 left-6 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>
+          German Colony
+        </p>
       </section>
 
       {/* CTA */}

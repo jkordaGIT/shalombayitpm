@@ -173,22 +173,25 @@ export default function ServicesPage() {
 
       {/* Property photo strip */}
       <section style={{ backgroundColor: "#F7F3EE" }}>
-        <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3">
           {[
-            { src: "/images/apt1.jpeg", alt: "Classic Jerusalem stone apartment building" },
-            { src: "/images/apt2.jpeg", alt: "Modern Jerusalem stone tower with glass balconies" },
-            { src: "/images/apt3.jpeg", alt: "Jerusalem stone building with arched windows" },
-            { src: "/images/talbieh-apt.jpeg", alt: "Luxury modern residential complex in Talbiya" },
+            { src: "/images/german-colony.jpg", alt: "German Colony neighbourhood, Jerusalem", caption: "German Colony" },
+            { src: "/images/talpiot-north.jpg", alt: "Talpiot North neighbourhood, Jerusalem", caption: "Talpiot North" },
+            { src: "/images/pat.jpg", alt: "Pat neighbourhood, Jerusalem", caption: "Pat" },
           ].map((photo) => (
-            <div key={photo.src} className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+            <div key={photo.src} className="relative overflow-hidden group" style={{ aspectRatio: "4/3" }}>
               <Image
                 src={photo.src}
                 alt={photo.alt}
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
+              <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.6) 0%, transparent 50%)" }} />
+              <p className="absolute bottom-4 left-4 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>
+                {photo.caption}
+              </p>
             </div>
           ))}
         </div>

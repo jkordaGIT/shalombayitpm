@@ -197,9 +197,9 @@ const jerusalemPhotos = [
     caption: "Old City",
   },
   {
-    src: "/images/hansen-sign.jpg",
-    alt: "Hansen House, Talbiya, Jerusalem",
-    caption: "Talbiya",
+    src: "/images/nachlaot.jpg",
+    alt: "Nachlaot neighbourhood, Jerusalem",
+    caption: "Nachlaot",
   },
   {
     src: "/images/yemin-moshe.jpg",

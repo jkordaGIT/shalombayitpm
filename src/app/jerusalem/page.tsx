@@ -80,12 +80,11 @@ export default function JerusalemPage() {
 
       {/* Jerusalem photo grid */}
       <section className="py-0" style={{ backgroundColor: "#F7F3EE" }}>
-        <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3">
           {[
-            { src: "/images/yoel-solomon.jpeg", alt: "Yoel Solomon Street, Nahalat Shiva", caption: "Nahalat Shiva" },
-            { src: "/images/mamilla.jpeg", alt: "Mamilla covered promenade", caption: "Mamilla" },
-            { src: "/images/old-city.jpeg", alt: "Old City of Jerusalem panorama", caption: "Old City" },
-            { src: "/images/mamilla2.jpeg", alt: "Mamilla open-air plaza", caption: "Mamilla" },
+            { src: "/images/mount-of-olives.jpg", alt: "Mount of Olives facing Old City, Jerusalem", caption: "Mount Of Olives" },
+            { src: "/images/rechavia.jpg", alt: "Rechavia neighbourhood, Jerusalem", caption: "Rechavia" },
+            { src: "/images/rassco.jpg", alt: "Rassco neighbourhood, Jerusalem", caption: "Rassco" },
           ].map((photo) => (
             <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
               <Image

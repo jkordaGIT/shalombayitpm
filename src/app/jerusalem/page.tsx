@@ -49,7 +49,7 @@ export default function JerusalemPage() {
             </div>
             <div className="lg:col-span-8">
               <p className="font-body text-base leading-relaxed mb-5" style={{ color: "rgba(44,42,40,0.7)" }}>
-                Jerusalem slows down on Friday afternoon and does not resume until Saturday night. Sukkot empties the city of noise and fills terraces with schach and string lights. Pesach transforms kitchens. Rosh Hashana brings family from five continents to homes that have been empty since last summer.
+                Jerusalem slows down on Friday afternoon and does not fully resume until Saturday night. Sukkot empties the city of noise and fills terraces with schach and string lights. Pesach transforms more than kitchens. Rosh Hashana brings family from five continents to homes that have been empty since last summer.
               </p>
               <p className="font-body text-base leading-relaxed" style={{ color: "rgba(44,42,40,0.7)" }}>
                 Managing a Jerusalem home means knowing this calendar intimately, not as a scheduling constraint, but as the actual rhythm of life here. We know when to prepare your home, what to prepare, and what it means if we miss the timing. This is not knowledge that transfers from property management experience elsewhere.

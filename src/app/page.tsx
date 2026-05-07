@@ -8,8 +8,8 @@ function Hero() {
       {/* Full-bleed hero photo */}
       <div className="absolute inset-0" aria-hidden="true">
         <Image
-          src="/images/jerusalem-sunset.png"
-          alt="Jerusalem sunset over the Old City"
+          src="/images/strings.jpg"
+          alt="Jerusalem strings"
           fill
           priority
           className="object-cover object-center"

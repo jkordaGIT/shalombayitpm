@@ -81,15 +81,15 @@ export default function WhyShalomBayitPage() {
       </section>
 
       {/* Panorama */}
-      <section className="px-6 lg:px-12 py-4" style={{ backgroundColor: "#F7F3EE" }}>
-        <div className="relative overflow-hidden" style={{ maxHeight: "480px" }}>
+      <section className="px-6 lg:px-16 py-4" style={{ backgroundColor: "#F7F3EE" }}>
+        <div className="max-w-3xl mx-auto">
           <Image
             src="/images/reuven.jpg"
             alt="Jerusalem neighbourhood panorama"
             width={1600}
             height={1200}
             className="w-full h-auto"
-            sizes="100vw"
+            sizes="(max-width: 768px) 100vw, 768px"
             style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
           />
         </div>

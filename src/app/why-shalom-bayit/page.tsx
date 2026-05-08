@@ -81,8 +81,8 @@ export default function WhyShalomBayitPage() {
       </section>
 
       {/* Panorama */}
-      <section style={{ backgroundColor: "#F7F3EE", padding: "1rem 3rem" }}>
-        <div style={{ maxWidth: "1400px", margin: "0 auto", display: "flex", gap: "1rem" }}>
+      <section style={{ backgroundColor: "#F7F3EE", padding: "1rem 0" }}>
+        <div style={{ display: "flex", gap: "0.5rem" }}>
           {[
             { src: "/images/reuven.jpg", alt: "Jerusalem neighbourhood panorama" },
             { src: "/images/ilove.jpg", alt: "Jerusalem street scene" },

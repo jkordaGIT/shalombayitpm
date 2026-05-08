@@ -79,14 +79,14 @@ export default function JerusalemPage() {
       </section>
 
       {/* Jerusalem photo grid */}
-      <section className="py-0" style={{ backgroundColor: "#F7F3EE" }}>
+      <section className="py-0" style={{ backgroundColor: "#F7F3EE", padding: "0 10%" }}>
         <div className="grid grid-cols-1 lg:grid-cols-3">
           {[
             { src: "/images/mount-of-olives.jpg", alt: "Mount of Olives facing Old City, Jerusalem", caption: "Mount Of Olives" },
             { src: "/images/rechavia.jpg", alt: "Rechavia neighbourhood, Jerusalem", caption: "Rechavia" },
             { src: "/images/rassco.jpg", alt: "Rassco neighbourhood, Jerusalem", caption: "Rassco" },
           ].map((photo) => (
-            <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
+            <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "1/1" }}>
               <Image
                 src={photo.src}
                 alt={photo.alt}

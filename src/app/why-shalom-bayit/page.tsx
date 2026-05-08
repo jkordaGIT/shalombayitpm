@@ -94,7 +94,7 @@ export default function WhyShalomBayitPage() {
                 src={img.src}
                 alt={img.alt}
                 width={1600}
-                height={1200}
+                height={1800}
                 className="w-full h-auto"
                 sizes="(max-width: 768px) 100vw, 25vw"
                 style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}

@@ -82,16 +82,29 @@ export default function WhyShalomBayitPage() {
 
       {/* Panorama */}
       <section style={{ backgroundColor: "#F7F3EE", padding: "1rem 3rem" }}>
-        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
-          <Image
-            src="/images/reuven.jpg"
-            alt="Jerusalem neighbourhood panorama"
-            width={1600}
-            height={1200}
-            className="w-full h-auto"
-            sizes="700px"
-            style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
-          />
+        <div style={{ maxWidth: "1400px", margin: "0 auto", display: "flex", gap: "1rem" }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <Image
+              src="/images/reuven.jpg"
+              alt="Jerusalem neighbourhood panorama"
+              width={1600}
+              height={1200}
+              className="w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
+            />
+          </div>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <Image
+              src="/images/ilove.jpg"
+              alt="Jerusalem street scene"
+              width={1600}
+              height={1200}
+              className="w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
+            />
+          </div>
         </div>
       </section>
 

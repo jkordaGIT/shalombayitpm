@@ -83,28 +83,24 @@ export default function WhyShalomBayitPage() {
       {/* Panorama */}
       <section style={{ backgroundColor: "#F7F3EE", padding: "1rem 3rem" }}>
         <div style={{ maxWidth: "1400px", margin: "0 auto", display: "flex", gap: "1rem" }}>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <Image
-              src="/images/reuven.jpg"
-              alt="Jerusalem neighbourhood panorama"
-              width={1600}
-              height={1200}
-              className="w-full h-auto"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
-            />
-          </div>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <Image
-              src="/images/ilove.jpg"
-              alt="Jerusalem street scene"
-              width={1600}
-              height={1200}
-              className="w-full h-auto"
-              sizes="(max-width: 768px) 100vw, 50vw"
-              style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
-            />
-          </div>
+          {[
+            { src: "/images/reuven.jpg", alt: "Jerusalem neighbourhood panorama" },
+            { src: "/images/ilove.jpg", alt: "Jerusalem street scene" },
+            { src: "/images/sleek.jpeg", alt: "Jerusalem building" },
+            { src: "/images/alley-new.jpeg", alt: "Jerusalem alley" },
+          ].map((img) => (
+            <div key={img.src} style={{ flex: 1, minWidth: 0 }}>
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={1600}
+                height={1200}
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, 25vw"
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
+              />
+            </div>
+          ))}
         </div>
       </section>
 

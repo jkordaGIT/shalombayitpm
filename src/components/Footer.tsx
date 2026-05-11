@@ -40,8 +40,8 @@ export default function Footer() {
           <p className="font-body text-xs font-medium uppercase tracking-widest text-cream/40 mb-4">Contact</p>
           <div className="flex flex-col gap-3 font-body text-sm text-cream/60">
             <p>Jerusalem, Israel</p>
-            <a href="mailto:hello@shalombayitpm.com" className="hover:text-cream transition-colors">
-              hello@shalombayitpm.com
+            <a href="mailto:info@shalombayitpm.com" className="hover:text-cream transition-colors">
+              info@shalombayitpm.com
             </a>
             <p className="text-cream/40 text-xs mt-2">
               Available during North American business hours and Jerusalem time.

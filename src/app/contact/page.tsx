@@ -5,6 +5,8 @@ import PageHero from "@/components/PageHero";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -19,18 +21,21 @@ export default function ContactPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // Form submission — wire to Formspree or email service before going live
-    // Replace YOUR_FORM_ID with actual Formspree endpoint
+    setLoading(true);
+    setError(false);
     try {
-      await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
+      if (!res.ok) throw new Error("Failed");
+      setSubmitted(true);
     } catch {
-      // Fail silently in dev — handle properly before launch
+      setError(true);
+    } finally {
+      setLoading(false);
     }
-    setSubmitted(true);
   }
 
   return (
@@ -242,17 +247,25 @@ export default function ContactPage() {
                 <div>
                   <button
                     type="submit"
-                    className="px-10 py-4 font-body text-sm font-medium uppercase tracking-widest transition-colors"
+                    disabled={loading}
+                    className="px-10 py-4 font-body text-sm font-medium uppercase tracking-widest transition-colors disabled:opacity-60"
                     style={{ backgroundColor: "#5C6B3A", color: "#F7F3EE" }}
                   >
-                    Send Message
+                    {loading ? "Sending…" : "Send Message"}
                   </button>
-                  <p
-                    className="font-body text-xs mt-4"
-                    style={{ color: "rgba(44,42,40,0.4)" }}
-                  >
-                    We respond within 24 hours on business days.
-                  </p>
+                  {error && (
+                    <p className="font-body text-xs mt-4" style={{ color: "#c0392b" }}>
+                      Something went wrong. Please email us directly at hello@shalombayitpm.com.
+                    </p>
+                  )}
+                  {!error && (
+                    <p
+                      className="font-body text-xs mt-4"
+                      style={{ color: "rgba(44,42,40,0.4)" }}
+                    >
+                      We respond within 24 hours on business days.
+                    </p>
+                  )}
                 </div>
               </form>
             )}

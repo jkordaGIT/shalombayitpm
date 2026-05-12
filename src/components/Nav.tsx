@@ -19,12 +19,12 @@ export default function Nav() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-stone/30">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="font-display text-2xl font-light tracking-wide text-charcoal hover:text-gold transition-colors whitespace-nowrap">
+        <Link href="/" className="font-display text-2xl font-light tracking-wide text-charcoal hover:text-gold transition-colors whitespace-nowrap flex-shrink-0 mr-8">
           Shalom Bayit
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-4">
           {links.map((link) => (
             <Link
               key={link.href}

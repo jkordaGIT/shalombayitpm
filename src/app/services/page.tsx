@@ -48,7 +48,7 @@ const categories = [
       "Fresh linens, aired home, kitchen stocked to your standing list",
       "Sukkah building and breakdown coordination",
       "Pesach kitchen preparation and chametz removal coordination",
-      "Rosh Hashana arrival packages",
+      "Chag arrival packages",
       "Seasonal chag inspection and home readiness checks",
     ],
   },
@@ -58,7 +58,7 @@ const categories = [
       "Walk in and feel at home, regardless of how long you have been away. We prepare your home to your exact specifications before every arrival, so the transition from airport to home is seamless.",
     services: [
       "Climate control activated before your arrival",
-      "Full home airing and refresh",
+      "Full home deep clean",
       "Grocery stocking to your standing or custom list",
       "Bed making and linen setup in all rooms",
       "Bathroom and toiletries prepared",
@@ -131,14 +131,8 @@ export default function ServicesPage() {
               className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 pt-16 border-t"
               style={{ borderColor: "rgba(210,190,158,0.5)" }}
             >
-              {/* Number + Title */}
+              {/* Title */}
               <div className="lg:col-span-4">
-                <p
-                  className="font-display text-5xl font-light mb-4"
-                  style={{ color: "#D2BE9E" }}
-                >
-                  {i + 1}
-                </p>
                 <h2
                   className="font-display text-3xl font-light mb-6"
                   style={{ color: "#2C2A28" }}
@@ -155,9 +149,9 @@ export default function ServicesPage() {
 
               {/* Service list */}
               <div className="lg:col-span-8">
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4">
+                <ul className="columns-1 md:columns-2 gap-x-12">
                   {cat.services.map((s) => (
-                    <li key={s} className="flex items-start gap-3">
+                    <li key={s} className="flex items-start gap-3 break-inside-avoid mb-4">
                       <span
                         className="mt-2 shrink-0 w-1 h-1 rounded-full"
                         style={{ backgroundColor: "#A68B5B" }}
@@ -179,22 +173,25 @@ export default function ServicesPage() {
 
       {/* Property photo strip */}
       <section style={{ backgroundColor: "#F7F3EE" }}>
-        <div className="grid grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 lg:grid-cols-3">
           {[
-            { src: "/images/apt1.jpeg", alt: "Classic Jerusalem stone apartment building" },
-            { src: "/images/apt2.jpeg", alt: "Modern Jerusalem stone tower with glass balconies" },
-            { src: "/images/apt3.jpeg", alt: "Jerusalem stone building with arched windows" },
-            { src: "/images/talbieh-apt.jpeg", alt: "Luxury modern residential complex in Talbiya" },
+            { src: "/images/german-colony.jpg", alt: "German Colony neighbourhood, Jerusalem", caption: "German Colony" },
+            { src: "/images/talpiot-north.jpg", alt: "Talpiot North neighbourhood, Jerusalem", caption: "Talpiot North" },
+            { src: "/images/pat.jpg", alt: "Pat neighbourhood, Jerusalem", caption: "Pat" },
           ].map((photo) => (
-            <div key={photo.src} className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+            <div key={photo.src} className="relative overflow-hidden group" style={{ aspectRatio: "4/3" }}>
               <Image
                 src={photo.src}
                 alt={photo.alt}
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
+              <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.6) 0%, transparent 50%)" }} />
+              <p className="absolute bottom-4 left-4 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>
+                {photo.caption}
+              </p>
             </div>
           ))}
         </div>

@@ -8,8 +8,8 @@ function Hero() {
       {/* Full-bleed hero photo */}
       <div className="absolute inset-0" aria-hidden="true">
         <Image
-          src="/images/bridge.jpeg"
-          alt="Calatrava Chords Bridge, Jerusalem"
+          src="/images/strings.jpg"
+          alt="Jerusalem strings"
           fill
           priority
           className="object-cover object-center"
@@ -27,7 +27,7 @@ function Hero() {
         <div className="max-w-3xl">
           <p
             className="font-body text-xs font-medium uppercase tracking-widest mb-6"
-            style={{ color: "#A68B5B" }}
+            style={{ color: "#FFFFFF", textShadow: "0 1px 4px rgba(0,0,0,0.6)" }}
           >
             Jerusalem Property Management
           </p>
@@ -35,14 +35,14 @@ function Hero() {
             className="font-display text-6xl lg:text-8xl font-light leading-tight mb-8"
             style={{ color: "#F7F3EE" }}
           >
-            Your Jerusalem home. Cared for like our own.
+            <span className="block whitespace-nowrap">Your Jerusalem Home</span>
+            <span className="block whitespace-nowrap">Cared For Like Our Own</span>
           </h1>
           <p
             className="font-body text-lg leading-relaxed mb-10 max-w-xl"
             style={{ color: "rgba(247,243,238,0.7)" }}
           >
-            Boutique property management for North American homeowners in Jerusalem —
-            combining genuine local expertise with the communication standards you expect at home.
+            Boutique property management for North American homeowners in Jerusalem&apos;s Inner Corridor.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
@@ -69,15 +69,15 @@ function Hero() {
 /* ─── Section: Value Props ───────────────────────────────────── */
 const values = [
   {
-    label: "Boutique by design",
-    body: "We manage fewer homes to do each one better. You will always speak with someone who knows your apartment.",
+    label: "Boutique By Design",
+    body: "We manage fewer homes in order to focus our already focused attention. You will always speak with someone who knows your home.",
   },
   {
-    label: "Peace of mind",
+    label: "Peace Of Mind",
     body: "Two inspections a month. A written report and walkthrough video delivered to your inbox. You always know what is happening at your home.",
   },
   {
-    label: "North American standards",
+    label: "North American Standards",
     body: "Messages answered within 24 hours. Transparent pricing. No surprises. We operate at the level you expect at home.",
   },
 ];
@@ -114,17 +114,17 @@ const services = [
   {
     category: "Shabbat & Holiday Preparation",
     description:
-      "Your home readied before you arrive — Shabbat ritual and meal preparation based on your exact preferences. We understand the calendar because we live it.",
+      "Your home readied before you arrive — Shabbat and meal preparation based on your exact preferences. We understand the calendar because we live it.",
   },
   {
     category: "Maintenance & Repairs",
     description:
-      "Vetted contractors, zero markup on costs, complete transparency on every invoice. We coordinate; you approve anything above 1,000 NIS.",
+      "Vetted contractors, zero markup on costs, complete transparency on every invoice. We coordinate and you approve anything above 1,000 NIS.",
   },
   {
     category: "Arrival Preparation",
     description:
-      "Walk in and feel at home. Climate control on, your grocery list filled, the apartment aired and ready — the moment you land.",
+      "Walk in and feel at home. Climate control on, your grocery list filled, the home cleaned and ready — the moment you land.",
   },
   {
     category: "Legal & Financial Liaison",
@@ -192,19 +192,24 @@ const jerusalemPhotos = [
     caption: "Nahalat Shiva",
   },
   {
-    src: "/images/mamilla.jpeg",
-    alt: "Mamilla covered promenade, Jerusalem",
-    caption: "Mamilla",
-  },
-  {
-    src: "/images/old-city.jpeg",
-    alt: "Old City of Jerusalem panorama",
+    src: "/images/jerusalem-sunset.png",
+    alt: "Jerusalem sunset over the Old City",
     caption: "Old City",
   },
   {
-    src: "/images/consulate.jpeg",
-    alt: "Talbiya neighbourhood, Jerusalem",
+    src: "/images/hansen-sign.jpg",
+    alt: "Hansen House, Talbiya, Jerusalem",
     caption: "Talbiya",
+  },
+  {
+    src: "/images/yemin-moshe.jpg",
+    alt: "Montefiore Windmill, Yemin Moshe, Jerusalem",
+    caption: "Yemin Moshe",
+  },
+  {
+    src: "/images/city-center.jpg",
+    alt: "Ben Yehuda Street, Jerusalem City Center",
+    caption: "City Center",
   },
 ];
 
@@ -219,14 +224,14 @@ function JerusalemStrip() {
           >
             The city
           </p>
-          <h2 className="font-display text-5xl lg:text-6xl font-light max-w-2xl" style={{ color: "#2C2A28" }}>
-            Jerusalem is unlike anywhere else on earth.
+          <h2 className="font-display text-4xl lg:text-5xl font-light whitespace-nowrap" style={{ color: "#2C2A28" }}>
+            Jerusalem Is Unlike Anywhere Else On Earth.
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-3 lg:grid-cols-5 gap-3">
           {jerusalemPhotos.map((photo) => (
-            <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
+            <div key={photo.src} className="group relative overflow-hidden" style={{ aspectRatio: "2/3" }}>
               <Image
                 src={photo.src}
                 alt={photo.alt}
@@ -265,9 +270,9 @@ function JerusalemStrip() {
 
 /* ─── Section: Property Photo Strip ──────────────────────────── */
 const propertyPhotos = [
-  { src: "/images/apt1.jpeg", alt: "Classic Jerusalem stone apartment building" },
-  { src: "/images/apt2.jpeg", alt: "Modern Jerusalem stone tower with glass balconies" },
-  { src: "/images/apt3.jpeg", alt: "Jerusalem stone building with arched windows" },
+  { src: "/images/nachlaot.jpg", alt: "Nachlaot neighbourhood, Jerusalem", caption: "Nachlaot" },
+  { src: "/images/kd-back.png", alt: "Mamilla, Jerusalem", caption: "Mamilla" },
+  { src: "/images/baka.jpg", alt: "Jerusalem stone villa in Baka neighbourhood", caption: "Baka" },
 ];
 
 function PropertyStrip() {
@@ -281,14 +286,14 @@ function PropertyStrip() {
           >
             The homes we care for
           </p>
-          <h2 className="font-display text-5xl lg:text-6xl font-light max-w-2xl" style={{ color: "#2C2A28" }}>
-            Every Jerusalem home tells a story.
+          <h2 className="font-display text-4xl lg:text-5xl font-light whitespace-nowrap" style={{ color: "#2C2A28" }}>
+            Every Jerusalem Home Tells A Story.
           </h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {propertyPhotos.map((photo) => (
-            <div key={photo.src} className="relative overflow-hidden" style={{ aspectRatio: "4/3" }}>
+            <div key={photo.src} className="relative overflow-hidden group" style={{ aspectRatio: "4/3" }}>
               <Image
                 src={photo.src}
                 alt={photo.alt}
@@ -297,6 +302,14 @@ function PropertyStrip() {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
               />
+              {photo.caption && (
+                <>
+                  <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.6) 0%, transparent 50%)" }} />
+                  <p className="absolute bottom-4 left-4 font-body text-xs uppercase tracking-widest" style={{ color: "#F7F3EE" }}>
+                    {photo.caption}
+                  </p>
+                </>
+              )}
             </div>
           ))}
         </div>
@@ -308,22 +321,22 @@ function PropertyStrip() {
 /* ─── Section: How It Works ──────────────────────────────────── */
 const steps = [
   {
-    num: "01",
+    num: "1",
     title: "Consultation",
     body: "A conversation about your home, your calendar, and what peace of mind means to you.",
   },
   {
-    num: "02",
+    num: "2",
     title: "Assessment",
-    body: "We walk through your apartment together — in person or via video — and document its current condition.",
+    body: "We walk through your home together — in person or via video — and document its current condition.",
   },
   {
-    num: "03",
+    num: "3",
     title: "Agreement",
     body: "One clear contract. One transparent price. No surprises, no hidden fees, no ambiguity.",
   },
   {
-    num: "04",
+    num: "4",
     title: "Ongoing Management",
     body: "Your home is in our hands. You receive your report every month and hear from us whenever something needs attention.",
   },
@@ -341,16 +354,13 @@ function HowItWorks() {
             The process
           </p>
           <h2 className="font-display text-5xl lg:text-6xl font-light" style={{ color: "#2C2A28" }}>
-            Simple from the start.
+            Simple From The Start.
           </h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((s) => (
             <div key={s.num}>
-              <p className="font-display text-6xl font-light mb-6" style={{ color: "#D2BE9E" }}>
-                {s.num}
-              </p>
               <h3 className="font-display text-2xl font-light mb-3" style={{ color: "#2C2A28" }}>
                 {s.title}
               </h3>

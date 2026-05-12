@@ -70,11 +70,11 @@ export default function ContactPage() {
                 Email
               </p>
               <a
-                href="mailto:hello@shalombayitpm.com"
+                href="mailto:info@shalombayitpm.com"
                 className="font-body text-base transition-colors"
                 style={{ color: "#2C2A28" }}
               >
-                hello@shalombayitpm.com
+                info@shalombayitpm.com
               </a>
             </div>
             <div>
@@ -121,7 +121,7 @@ export default function ContactPage() {
                   Thank you.
                 </h2>
                 <p className="font-body text-base leading-relaxed max-w-md" style={{ color: "rgba(44,42,40,0.65)" }}>
-                  We have received your message and will be in touch within 24 hours. If you have an urgent matter, you are welcome to email us directly at hello@shalombayitpm.com.
+                  We have received your message and will be in touch within 24 hours. If you have an urgent matter, you are welcome to email us directly at info@shalombayitpm.com.
                 </p>
               </div>
             ) : (

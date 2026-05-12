@@ -15,7 +15,7 @@ const differentiators = [
   },
   {
     title: "We live the calendar you care about.",
-    body: "Your Jerusalem home exists inside a Jewish calendar: Shabbat, Rosh Hashana, Sukkot, Shavuot, Pesach. We do not need to be reminded that you want the home ready before Shabbat, or that Pesach kitchen preparation is not a minor detail. We understand this because it is our calendar too. This cultural fluency cannot be trained into a property manager. It has to be lived.",
+    body: "Your Jerusalem home exists inside a Jewish calendar: Shabbat, Rosh Hashanah, Sukkot, Pesach, Shavuot. We do not need to be reminded that you want the home ready before Shabbat, or that Pesach kitchen preparation is not a minor detail. We understand this because it is our calendar too. This cultural fluency cannot be trained into a property manager. It has to be lived.",
   },
   {
     title: "We send a video, not just a report.",
@@ -80,17 +80,28 @@ export default function WhyShalomBayitPage() {
         </div>
       </section>
 
-      {/* Full-bleed hero panorama */}
-      <section className="relative overflow-hidden" style={{ height: "40vh", minHeight: "280px" }}>
-        <Image
-          src="/images/alley.jpeg"
-          alt="A Jerusalem stone alley"
-          fill
-          className="object-cover object-center"
-          sizes="100vw"
-          style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)" }}
-        />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(44,42,40,0.5) 0%, rgba(44,42,40,0.1) 100%)" }} />
+      {/* Panorama */}
+      <section style={{ backgroundColor: "#F7F3EE", padding: "1rem 0" }}>
+        <div style={{ display: "flex", gap: "0.5rem" }}>
+          {[
+            { src: "/images/reuven.jpg", alt: "Jerusalem neighbourhood panorama" },
+            { src: "/images/ilove.jpg", alt: "Jerusalem street scene" },
+            { src: "/images/sleek.jpeg", alt: "Jerusalem building" },
+            { src: "/images/alley-new.jpeg", alt: "Jerusalem alley" },
+          ].map((img) => (
+            <div key={img.src} style={{ flex: 1, minWidth: 0 }}>
+              <Image
+                src={img.src}
+                alt={img.alt}
+                width={1600}
+                height={1800}
+                className="w-full h-auto"
+                sizes="(max-width: 768px) 100vw, 25vw"
+                style={{ filter: "sepia(33%) saturate(125%) contrast(105%) brightness(96%)", display: "block" }}
+              />
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* The honest comparison */}
@@ -100,7 +111,7 @@ export default function WhyShalomBayitPage() {
             className="font-body text-xs font-medium uppercase tracking-widest mb-6"
             style={{ color: "#A68B5B" }}
           >
-            The honest comparison
+            Jerusalem's expanding inner corridor
           </p>
           <h2
             className="font-display text-4xl lg:text-5xl font-light mb-8 max-w-2xl"

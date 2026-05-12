@@ -9,6 +9,7 @@ const links = [
   { href: "/why-shalom-bayit", label: "Why Shalom Bayit" },
   { href: "/jerusalem", label: "Jerusalem" },
   { href: "/owner-stories", label: "Owner Stories" },
+  { href: "/about", label: "About Us" },
 ];
 
 export default function Nav() {

@@ -22,6 +22,7 @@ export default function Footer() {
               { href: "/why-shalom-bayit", label: "Why Shalom Bayit" },
               { href: "/jerusalem", label: "Jerusalem" },
               { href: "/owner-stories", label: "Owner Stories" },
+              { href: "/about", label: "About Us" },
               { href: "/contact", label: "Request a Consultation" },
             ].map((link) => (
               <Link

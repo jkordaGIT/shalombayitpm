@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -12,7 +11,7 @@ const team = [
   {
     name: "Marc Miller",
     title: "Managing Partner",
-    photo: null, // Replace with: "/images/marc.jpg"
+    photo: "/images/marc.jpg",
     bio: "Marc Miller brings a lifetime of experience in real estate, operations, property oversight, and multilingual communication to Shalom Bayit Properties. A longtime real estate broker, appraiser, and operations manager with deep roots in both Montreal and Atlanta, Marc has spent decades working closely with homeowners, investors, institutions, and international clients. His background combines high-level property management and operational leadership with a strong academic and language foundation, including teaching and research roles at leading universities and extensive work in translation, editing, and client communication in English, Hebrew, and Yiddish. Known for his discretion, responsiveness, and detail-oriented approach, Marc brings a calm, hands-on style to overseeing homes and supporting absentee property owners throughout Jerusalem's premier neighborhoods.",
   },
   {
@@ -43,12 +42,11 @@ export default function AboutPage() {
               {/* Photo */}
               <div className="lg:col-span-4">
                 {person.photo ? (
-                  <Image
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img
                     src={person.photo}
                     alt={person.name}
-                    width={600}
-                    height={750}
-                    className="w-full h-auto"
+                    className="w-full h-auto block"
                     style={{ filter: "sepia(15%) saturate(110%) contrast(105%)" }}
                   />
                 ) : (

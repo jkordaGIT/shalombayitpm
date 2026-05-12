@@ -255,7 +255,7 @@ export default function ContactPage() {
                   </button>
                   {error && (
                     <p className="font-body text-xs mt-4" style={{ color: "#c0392b" }}>
-                      Something went wrong. Please email us directly at hello@shalombayitpm.com.
+                      Something went wrong. Please email us directly at info@shalombayitpm.com.
                     </p>
                   )}
                   {!error && (

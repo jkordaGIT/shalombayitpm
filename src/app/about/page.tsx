@@ -14,12 +14,6 @@ const team = [
     photo: "/images/marc.jpg",
     bio: "Marc Miller brings a lifetime of experience in real estate, operations, property oversight, and multilingual communication to Shalom Bayit Properties. A longtime real estate broker, appraiser, and operations manager with deep roots in both Montreal and Atlanta, Marc has spent decades working closely with homeowners, investors, institutions, and international clients. His background combines high-level property management and operational leadership with a strong academic and language foundation, including teaching and research roles at leading universities and extensive work in translation, editing, and client communication in English, Hebrew, and Yiddish. Known for his discretion, responsiveness, and detail-oriented approach, Marc brings a calm, hands-on style to overseeing homes and supporting absentee property owners throughout Jerusalem's premier neighborhoods.",
   },
-  {
-    name: "Justin [Last Name]",
-    title: "Partner",
-    photo: null, // Replace with: "/images/justin.jpg"
-    bio: "Placeholder bio for Justin. Add his background, qualifications, relevant experience, and his role in day-to-day operations. Keep it honest and specific — the same tone as the rest of the site.",
-  },
 ];
 
 export default function AboutPage() {
